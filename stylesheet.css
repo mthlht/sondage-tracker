@@ -1,0 +1,142 @@
+:root {
+    /* --font-size: 16px; */
+    --font-family: "BrownFtv", "Roboto", "Helvetica", sans-serif;
+    --color-yellow: #ffc300;
+    --color-black: #232323;
+    --color-gray-dark: #5f7081;
+    --color-gray: #d7dfe8;
+    --color-access-green: #009e73;
+    --color-access-red: #d55e00;
+    --color-access-yellow: #f0e442;
+    --color-access-orange: #e69f00;
+    --gutter-size: 1.5em;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.graph-container {
+    max-width: 500px;
+}
+
+.grph-title {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.grph-subtitle {
+    display: block;
+    font-size: 0.7em;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 auto;
+}
+
+.grph-content {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.grph-tooltip {
+    background: #fff;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    opacity: 0;
+    padding: .75em 1em;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(-50%, -120%);
+    transition: opacity .3s;
+    white-space: nowrap;
+}
+
+.grph-caption {
+    box-sizing: border-box;
+    color: var(--color-gray-dark);
+    font-size: .6875em;
+    margin-top: 1em;
+}
+
+.grph-caption a,
+.grph-caption a:focus,
+.grph-caption a:active,
+.grph-caption a:hover,
+.grph-caption a:visited {
+    color: var(--color-black);
+    font-size: 1em;
+}
+
+.grph-note {
+    color: var(--color-gray-dark);
+    
+}
+.candidat-box {
+    display: flex;
+    flex-flow: row wrap;
+    max-height: 50px;
+    width:100%;
+    max-width:450px;
+    margin-bottom: 1%;
+    border-bottom: 1px solid var(--color-gray);
+}
+
+.left-box {
+    display:flex;
+    flex-grow:0;
+    align-items: center;
+    width:40%;
+    max-height: inherit;
+}
+
+.photo-box {
+    display: flex;
+    max-width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:20%;
+    align-items: center;
+}
+
+.candidat-nom {
+    margin-bottom: 0;
+    width:80%;
+
+}
+
+.sub-nom {
+    font-size: 0.9em;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+
+    .sub-nom {
+        font-size: 0.75em;
+    }
+
+    .sub-parti {
+        display: none;
+    }
+}
+
+.sub-parti {
+    font-size: 0.7em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--color-gray-dark);
+}
+
+
+.right-box {
+    width: 60%;
+    max-height: inherit;
+}
+
+.graph-box {
+    max-height: inherit;
+}
