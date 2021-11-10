@@ -160,8 +160,8 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
     'Jean-Frédéric Poisson': '#002e61',
     'Florian Philippot': '#002e61',
     'Jean-Christophe Lagarde': '#037bfc',
-    'François Asselineau': '#777f7f'
-
+    'François Asselineau': '#777f7f',
+    'Philippe Juvin': '#037bfc'
   }
 
 //---------------------------------------------------------------------------------------
