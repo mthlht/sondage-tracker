@@ -144,7 +144,7 @@ body {
 .box-content {
     display: flex;
     justify-content: center;
-    flex-flow: wrap;
+    flex-wrap:wrap;
 
 }
 
