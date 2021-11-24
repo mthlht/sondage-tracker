@@ -22,7 +22,6 @@ body {
 
 .grph-title {
     font-size: 1.4em;
-    line-height: 1.4em;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -139,4 +138,21 @@ body {
 
 .graph-box {
     max-height: inherit;
+}
+
+
+.box-content {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+
+}
+
+.box-candidat {
+    padding: 0.2em;
+    margin-right: 0.2em;
+    margin-bottom: 0.2em;
+    border: 0;
+    border-radius: 0.2em;
+
 }
