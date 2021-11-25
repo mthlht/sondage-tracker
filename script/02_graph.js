@@ -224,8 +224,8 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     const marginV = 20;
 
     const viewBox = {
-        width: width + marginH * 6,
-        height: height + marginV * 2
+        width: width + marginH * 6.4,
+        height: height + marginV * 3
     }
 
     // création du canevas pour le Graphique
@@ -239,7 +239,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     // création d'un groupe g pour le Graphique
     const svgPlot = svg
         .append("g")
-        .attr("transform", `translate(${marginH}, ${marginV})`);
+        .attr("transform", `translate(${marginH*1.2}, ${marginV})`);
 
     //---------------------------------------------------------------------------------------
 
@@ -298,7 +298,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
             .call(d3.axisBottom(scaleT).ticks(4).tickFormat(d3.timeFormat("%b %Y")))
             .selectAll("text")
             .style("fill", "grey")
-            .style("font-size", "12px")
+            .style("font-size", "16px")
             .style("font-weight", "bold");
 
     // Axe des Y
@@ -450,7 +450,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
         .attr("x", width + 8)
         .attr("y", (d) => d.y)
         .text((d) => d.nom + " " + Math.round(d.ymean) + "%")
-        .style("font-size", "25px")
+        .style("font-size", "21px")
         .style("font-weight", "bold")
         .style("fill", d => paletteCouleurs[d.candidat]);
 
@@ -621,7 +621,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
                 .attr("x", width + 8)
                 .attr("y", (d) => d.y)
                 .text((d) => d.nom + " " + Math.round(d.ymean) + "%")
-                .style("font-size", "25px")
+                .style("font-size", "21px")
                 .style("font-weight", "bold")
                 .style("fill", d => paletteCouleurs[d.candidat]);
 
@@ -641,7 +641,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
         .append("g")
         .call(yAxis)
         .attr("color", "grey")
-        .style("font-size", "12px")
+        .style("font-size", "16px")
         .style("font-weight", "bold")
         .call((g) =>
             g
