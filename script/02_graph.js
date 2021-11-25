@@ -450,7 +450,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
         .attr("x", width + 8)
         .attr("y", (d) => d.y)
         .text((d) => d.nom + " " + Math.round(d.ymean) + "%")
-        .style("font-size", "20px")
+        .style("font-size", "22px")
         .style("font-weight", "bold")
         .style("fill", d => paletteCouleurs[d.candidat]);
 
@@ -621,7 +621,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
                 .attr("x", width + 8)
                 .attr("y", (d) => d.y)
                 .text((d) => d.nom + " " + Math.round(d.ymean) + "%")
-                .style("font-size", "20px")
+                .style("font-size", "22px")
                 .style("font-weight", "bold")
                 .style("fill", d => paletteCouleurs[d.candidat]);
 
