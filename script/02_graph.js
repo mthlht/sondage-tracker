@@ -242,7 +242,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     // création d'un groupe g pour le Graphique
     const svgPlot = svg
         .append("g")
-        .attr("transform", `translate(${marginH*1.3}, ${0})`);
+        .attr("transform", `translate(${marginH*1.5}, ${0})`);
 
     //---------------------------------------------------------------------------------------
 
@@ -301,7 +301,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
             .call(d3.axisBottom(scaleT).ticks(4).tickFormat(d3.timeFormat("%b %Y")))
             .selectAll("text")
             .style("fill", "grey")
-            .style("font-size", "18px")
+            .style("font-size", "20px")
             .style("font-weight", "bold");
 
     // Axe des Y
@@ -644,7 +644,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
         .append("g")
         .call(yAxis)
         .attr("color", "grey")
-        .style("font-size", "18px")
+        .style("font-size", "20px")
         .style("font-weight", "bold")
         .call((g) =>
             g
