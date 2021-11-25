@@ -482,7 +482,8 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
 
                 candidatsListe.push(candidatOnClick)
                 d3.select(this)
-                    .style('opacity', "1")
+                .style("background-color", "white")
+                .style("color", d => paletteCouleurs[d.candidat])
 
             } else if (candidatsListe.includes(candidatOnClick)) {
 
@@ -491,7 +492,8 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
                 })
 
                 d3.select(this)
-                    .style('opacity', "1")
+                .style("background-color", d => paletteCouleurs[d.candidat])
+                .style("color", d => "white")
 
             }
 
