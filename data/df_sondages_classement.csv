@@ -1,410 +1,630 @@
 candidat,parti,id,erreur_inf,erreur_sup,rank
 Emmanuel Macron,LRM,20211112_bva,24.0538,29.9462,1
 Jean-Luc Mélenchon,France insoumise,20211112_bva,5.7521,9.2479,7
-Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,15
-Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,13
-Jean Lassalle,NA,20211112_bva,0.6934,2.3066,17
-Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,9
+Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,16
+Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,14
+Jean Lassalle,NA,20211112_bva,0.6934,2.3066,18
+Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,10
 Yannick Jadot,EELV,20211112_bva,6.6493,10.3507,8
-Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,12
-François Asselineau,UPR,20211112_bva,0.0319,0.9681,18
-Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,16
+Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,13
+François Asselineau,UPR,20211112_bva,0.0319,0.9681,19
+Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,17
 Marine Le Pen,Rassemblement national,20211112_bva,23.0892,28.9108,2
 Xavier Bertrand,Les Républicains,20211112_bva,12.6304,17.3696,4
-Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,11
+Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,12
 Emmanuel Macron,LRM,20211112_bva,24.0538,29.9462,1
 Jean-Luc Mélenchon,France insoumise,20211112_bva,5.7521,9.2479,7
-Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,15
-Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,13
-Jean Lassalle,NA,20211112_bva,0.6934,2.3066,17
-Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,9
+Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,16
+Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,14
+Jean Lassalle,NA,20211112_bva,0.6934,2.3066,18
+Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,10
 Yannick Jadot,EELV,20211112_bva,6.6493,10.3507,8
-Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,12
-François Asselineau,UPR,20211112_bva,0.0319,0.9681,18
-Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,16
+Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,13
+François Asselineau,UPR,20211112_bva,0.0319,0.9681,19
+Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,17
 Marine Le Pen,Rassemblement national,20211112_bva,23.0892,28.9108,2
 Xavier Bertrand,Les Républicains,20211112_bva,12.6304,17.3696,4
-Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,11
+Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,12
 Emmanuel Macron,LRM,20211112_bva,24.0538,29.9462,1
 Jean-Luc Mélenchon,France insoumise,20211112_bva,5.7521,9.2479,7
-Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,15
-Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,13
-Jean Lassalle,NA,20211112_bva,0.6934,2.3066,17
-Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,9
+Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,16
+Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,14
+Jean Lassalle,NA,20211112_bva,0.6934,2.3066,18
+Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,10
 Yannick Jadot,EELV,20211112_bva,6.6493,10.3507,8
-Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,12
-François Asselineau,UPR,20211112_bva,0.0319,0.9681,18
-Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,16
+Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,13
+François Asselineau,UPR,20211112_bva,0.0319,0.9681,19
+Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,17
 Marine Le Pen,Rassemblement national,20211112_bva,23.0892,28.9108,2
 Xavier Bertrand,Les Républicains,20211112_bva,12.6304,17.3696,4
-Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,11
+Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,12
 Emmanuel Macron,LRM,20211112_bva,24.0538,29.9462,1
 Jean-Luc Mélenchon,France insoumise,20211112_bva,5.7521,9.2479,7
-Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,15
-Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,13
-Jean Lassalle,NA,20211112_bva,0.6934,2.3066,17
-Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,9
+Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,16
+Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,14
+Jean Lassalle,NA,20211112_bva,0.6934,2.3066,18
+Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,10
 Yannick Jadot,EELV,20211112_bva,6.6493,10.3507,8
-Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,12
-François Asselineau,UPR,20211112_bva,0.0319,0.9681,18
-Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,16
+Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,13
+François Asselineau,UPR,20211112_bva,0.0319,0.9681,19
+Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,17
 Marine Le Pen,Rassemblement national,20211112_bva,23.0892,28.9108,2
 Xavier Bertrand,Les Républicains,20211112_bva,12.6304,17.3696,4
-Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,11
+Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,12
 Emmanuel Macron,LRM,20211112_bva,24.0538,29.9462,1
 Jean-Luc Mélenchon,France insoumise,20211112_bva,5.7521,9.2479,7
-Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,15
-Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,13
-Jean Lassalle,NA,20211112_bva,0.6934,2.3066,17
-Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,9
+Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,16
+Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,14
+Jean Lassalle,NA,20211112_bva,0.6934,2.3066,18
+Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,10
 Yannick Jadot,EELV,20211112_bva,6.6493,10.3507,8
-Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,12
-François Asselineau,UPR,20211112_bva,0.0319,0.9681,18
-Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,16
+Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,13
+François Asselineau,UPR,20211112_bva,0.0319,0.9681,19
+Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,17
 Marine Le Pen,Rassemblement national,20211112_bva,23.0892,28.9108,2
 Xavier Bertrand,Les Républicains,20211112_bva,12.6304,17.3696,4
-Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,11
+Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,12
 Emmanuel Macron,LRM,20211112_bva,24.0538,29.9462,1
 Jean-Luc Mélenchon,France insoumise,20211112_bva,5.7521,9.2479,7
-Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,15
-Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,13
-Jean Lassalle,NA,20211112_bva,0.6934,2.3066,17
-Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,9
+Philippe Poutou,NPA,20211112_bva,0.3397,1.6603,16
+Fabien Roussel,Parti communiste,20211112_bva,1.0709,2.9291,14
+Jean Lassalle,NA,20211112_bva,0.6934,2.3066,18
+Anne Hidalgo,Parti socialiste,20211112_bva,3.5537,6.4463,10
 Yannick Jadot,EELV,20211112_bva,6.6493,10.3507,8
-Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,12
-François Asselineau,UPR,20211112_bva,0.0319,0.9681,18
-Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,16
+Arnaud Montebourg,NA,20211112_bva,1.0709,2.9291,13
+François Asselineau,UPR,20211112_bva,0.0319,0.9681,19
+Nathalie Arthaud,Lutte ouvrière,20211112_bva,0.3397,1.6603,17
 Marine Le Pen,Rassemblement national,20211112_bva,23.0892,28.9108,2
 Xavier Bertrand,Les Républicains,20211112_bva,12.6304,17.3696,4
-Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,11
-Arnaud Montebourg,NA,20211115_ow,2.0257,3.9743,12
-Nathalie Arthaud,Lutte ouvrière,20211115_ow,0.4317,1.5683,16
-Anne Hidalgo,Parti socialiste,20211115_ow,3.7553,6.2447,9
+Nicolas Dupont-Aignan,Debout la France,20211112_bva,1.868,4.132,12
+Arnaud Montebourg,NA,20211115_ow,2.0257,3.9743,13
+Nathalie Arthaud,Lutte ouvrière,20211115_ow,0.4317,1.5683,17
+Anne Hidalgo,Parti socialiste,20211115_ow,3.7553,6.2447,10
 Yannick Jadot,EELV,20211115_ow,6.4506,9.5494,8
 Marine Le Pen,Rassemblement national,20211115_ow,16.7595,21.2405,2
-Nicolas Dupont-Aignan,Debout la France,20211115_ow,2.0257,3.9743,11
+Nicolas Dupont-Aignan,Debout la France,20211115_ow,2.0257,3.9743,12
 Eric Zemmour,NA,20211115_ow,10.1441,13.8559,3
-Philippe Poutou,NPA,20211115_ow,0.4317,1.5683,15
+Philippe Poutou,NPA,20211115_ow,0.4317,1.5683,16
 Jean-Luc Mélenchon,France insoumise,20211115_ow,7.3655,10.6345,7
 Xavier Bertrand,Les Républicains,20211115_ow,11.0793,14.9207,4
-Fabien Roussel,Parti communiste,20211115_ow,1.2004,2.7996,13
+Fabien Roussel,Parti communiste,20211115_ow,1.2004,2.7996,14
 Emmanuel Macron,LRM,20211115_ow,21.5608,26.4392,1
-Arnaud Montebourg,NA,20211115_ow,2.0257,3.9743,12
-Nathalie Arthaud,Lutte ouvrière,20211115_ow,0.4317,1.5683,16
-Anne Hidalgo,Parti socialiste,20211115_ow,3.7553,6.2447,9
+Arnaud Montebourg,NA,20211115_ow,2.0257,3.9743,13
+Nathalie Arthaud,Lutte ouvrière,20211115_ow,0.4317,1.5683,17
+Anne Hidalgo,Parti socialiste,20211115_ow,3.7553,6.2447,10
 Yannick Jadot,EELV,20211115_ow,6.4506,9.5494,8
 Marine Le Pen,Rassemblement national,20211115_ow,16.7595,21.2405,2
-Nicolas Dupont-Aignan,Debout la France,20211115_ow,2.0257,3.9743,11
+Nicolas Dupont-Aignan,Debout la France,20211115_ow,2.0257,3.9743,12
 Eric Zemmour,NA,20211115_ow,10.1441,13.8559,3
-Philippe Poutou,NPA,20211115_ow,0.4317,1.5683,15
+Philippe Poutou,NPA,20211115_ow,0.4317,1.5683,16
 Jean-Luc Mélenchon,France insoumise,20211115_ow,7.3655,10.6345,7
 Xavier Bertrand,Les Républicains,20211115_ow,11.0793,14.9207,4
-Fabien Roussel,Parti communiste,20211115_ow,1.2004,2.7996,13
+Fabien Roussel,Parti communiste,20211115_ow,1.2004,2.7996,14
 Emmanuel Macron,LRM,20211115_ow,21.5608,26.4392,1
-Arnaud Montebourg,NA,20211115_ow,2.0257,3.9743,12
-Nathalie Arthaud,Lutte ouvrière,20211115_ow,0.4317,1.5683,16
-Anne Hidalgo,Parti socialiste,20211115_ow,3.7553,6.2447,9
+Arnaud Montebourg,NA,20211115_ow,2.0257,3.9743,13
+Nathalie Arthaud,Lutte ouvrière,20211115_ow,0.4317,1.5683,17
+Anne Hidalgo,Parti socialiste,20211115_ow,3.7553,6.2447,10
 Yannick Jadot,EELV,20211115_ow,6.4506,9.5494,8
 Marine Le Pen,Rassemblement national,20211115_ow,16.7595,21.2405,2
-Nicolas Dupont-Aignan,Debout la France,20211115_ow,2.0257,3.9743,11
+Nicolas Dupont-Aignan,Debout la France,20211115_ow,2.0257,3.9743,12
 Eric Zemmour,NA,20211115_ow,10.1441,13.8559,3
-Philippe Poutou,NPA,20211115_ow,0.4317,1.5683,15
+Philippe Poutou,NPA,20211115_ow,0.4317,1.5683,16
 Jean-Luc Mélenchon,France insoumise,20211115_ow,7.3655,10.6345,7
 Xavier Bertrand,Les Républicains,20211115_ow,11.0793,14.9207,4
-Fabien Roussel,Parti communiste,20211115_ow,1.2004,2.7996,13
+Fabien Roussel,Parti communiste,20211115_ow,1.2004,2.7996,14
 Emmanuel Macron,LRM,20211115_ow,21.5608,26.4392,1
-Arnaud Montebourg,NA,20211115_ow,2.0257,3.9743,12
-Nathalie Arthaud,Lutte ouvrière,20211115_ow,0.4317,1.5683,16
-Anne Hidalgo,Parti socialiste,20211115_ow,3.7553,6.2447,9
+Arnaud Montebourg,NA,20211115_ow,2.0257,3.9743,13
+Nathalie Arthaud,Lutte ouvrière,20211115_ow,0.4317,1.5683,17
+Anne Hidalgo,Parti socialiste,20211115_ow,3.7553,6.2447,10
 Yannick Jadot,EELV,20211115_ow,6.4506,9.5494,8
 Marine Le Pen,Rassemblement national,20211115_ow,16.7595,21.2405,2
-Nicolas Dupont-Aignan,Debout la France,20211115_ow,2.0257,3.9743,11
+Nicolas Dupont-Aignan,Debout la France,20211115_ow,2.0257,3.9743,12
 Eric Zemmour,NA,20211115_ow,10.1441,13.8559,3
-Philippe Poutou,NPA,20211115_ow,0.4317,1.5683,15
+Philippe Poutou,NPA,20211115_ow,0.4317,1.5683,16
 Jean-Luc Mélenchon,France insoumise,20211115_ow,7.3655,10.6345,7
 Xavier Bertrand,Les Républicains,20211115_ow,11.0793,14.9207,4
-Fabien Roussel,Parti communiste,20211115_ow,1.2004,2.7996,13
+Fabien Roussel,Parti communiste,20211115_ow,1.2004,2.7996,14
 Emmanuel Macron,LRM,20211115_ow,21.5608,26.4392,1
-Florian Philippot,Les Patriotes,20211105_hi,0.5299,1.4701,14
+Florian Philippot,Les Patriotes,20211105_hi,0.5299,1.4701,15
 Yannick Jadot,EELV,20211105_hi,7.6478,10.3522,8
-François Asselineau,UPR,20211105_hi,0,0,18
-Anne Hidalgo,Parti socialiste,20211105_hi,3.0741,4.9259,9
+François Asselineau,UPR,20211105_hi,0,0,19
+Anne Hidalgo,Parti socialiste,20211105_hi,3.0741,4.9259,10
 Eric Zemmour,NA,20211105_hi,17.1465,20.8535,3
-Nathalie Arthaud,Lutte ouvrière,20211105_hi,0.5299,1.4701,16
+Nathalie Arthaud,Lutte ouvrière,20211105_hi,0.5299,1.4701,17
 Emmanuel Macron,LRM,20211105_hi,21.9821,26.0179,1
 Marine Le Pen,Rassemblement national,20211105_hi,13.3129,16.6871,2
 Michel Barnier,Les Républicains,20211105_hi,8.5826,11.4174,6
 Jean-Luc Mélenchon,France insoumise,20211105_hi,8.5826,11.4174,7
-Philippe Poutou,NPA,20211105_hi,0.5299,1.4701,15
-Nicolas Dupont-Aignan,Debout la France,20211105_hi,1.3385,2.6615,11
-Arnaud Montebourg,NA,20211105_hi,1.3385,2.6615,12
-Fabien Roussel,Parti communiste,20211105_hi,1.3385,2.6615,13
-Jean Lassalle,NA,20211105_hi,0,0,17
-Florian Philippot,Les Patriotes,20211105_hi,0.5299,1.4701,14
+Philippe Poutou,NPA,20211105_hi,0.5299,1.4701,16
+Nicolas Dupont-Aignan,Debout la France,20211105_hi,1.3385,2.6615,12
+Arnaud Montebourg,NA,20211105_hi,1.3385,2.6615,13
+Fabien Roussel,Parti communiste,20211105_hi,1.3385,2.6615,14
+Jean Lassalle,NA,20211105_hi,0,0,18
+Florian Philippot,Les Patriotes,20211105_hi,0.5299,1.4701,15
 Yannick Jadot,EELV,20211105_hi,7.6478,10.3522,8
-François Asselineau,UPR,20211105_hi,0,0,18
-Anne Hidalgo,Parti socialiste,20211105_hi,3.0741,4.9259,9
+François Asselineau,UPR,20211105_hi,0,0,19
+Anne Hidalgo,Parti socialiste,20211105_hi,3.0741,4.9259,10
 Eric Zemmour,NA,20211105_hi,17.1465,20.8535,3
-Nathalie Arthaud,Lutte ouvrière,20211105_hi,0.5299,1.4701,16
+Nathalie Arthaud,Lutte ouvrière,20211105_hi,0.5299,1.4701,17
 Emmanuel Macron,LRM,20211105_hi,21.9821,26.0179,1
 Marine Le Pen,Rassemblement national,20211105_hi,13.3129,16.6871,2
 Michel Barnier,Les Républicains,20211105_hi,8.5826,11.4174,6
 Jean-Luc Mélenchon,France insoumise,20211105_hi,8.5826,11.4174,7
-Philippe Poutou,NPA,20211105_hi,0.5299,1.4701,15
-Nicolas Dupont-Aignan,Debout la France,20211105_hi,1.3385,2.6615,11
-Arnaud Montebourg,NA,20211105_hi,1.3385,2.6615,12
-Fabien Roussel,Parti communiste,20211105_hi,1.3385,2.6615,13
-Jean Lassalle,NA,20211105_hi,0,0,17
-Florian Philippot,Les Patriotes,20211105_hi,0.5299,1.4701,14
+Philippe Poutou,NPA,20211105_hi,0.5299,1.4701,16
+Nicolas Dupont-Aignan,Debout la France,20211105_hi,1.3385,2.6615,12
+Arnaud Montebourg,NA,20211105_hi,1.3385,2.6615,13
+Fabien Roussel,Parti communiste,20211105_hi,1.3385,2.6615,14
+Jean Lassalle,NA,20211105_hi,0,0,18
+Florian Philippot,Les Patriotes,20211105_hi,0.5299,1.4701,15
 Yannick Jadot,EELV,20211105_hi,7.6478,10.3522,8
-François Asselineau,UPR,20211105_hi,0,0,18
-Anne Hidalgo,Parti socialiste,20211105_hi,3.0741,4.9259,9
+François Asselineau,UPR,20211105_hi,0,0,19
+Anne Hidalgo,Parti socialiste,20211105_hi,3.0741,4.9259,10
 Eric Zemmour,NA,20211105_hi,17.1465,20.8535,3
-Nathalie Arthaud,Lutte ouvrière,20211105_hi,0.5299,1.4701,16
+Nathalie Arthaud,Lutte ouvrière,20211105_hi,0.5299,1.4701,17
 Emmanuel Macron,LRM,20211105_hi,21.9821,26.0179,1
 Marine Le Pen,Rassemblement national,20211105_hi,13.3129,16.6871,2
 Michel Barnier,Les Républicains,20211105_hi,8.5826,11.4174,6
 Jean-Luc Mélenchon,France insoumise,20211105_hi,8.5826,11.4174,7
-Philippe Poutou,NPA,20211105_hi,0.5299,1.4701,15
-Nicolas Dupont-Aignan,Debout la France,20211105_hi,1.3385,2.6615,11
-Arnaud Montebourg,NA,20211105_hi,1.3385,2.6615,12
-Fabien Roussel,Parti communiste,20211105_hi,1.3385,2.6615,13
-Jean Lassalle,NA,20211105_hi,0,0,17
-Fabien Roussel,Parti communiste,20211110_elb,1.1056,2.8944,13
-Anne Hidalgo,Parti socialiste,20211110_elb,4.4829,7.5171,9
-Philippe Poutou,NPA,20211110_elb,0.3644,1.6356,15
-Philippe Juvin,Les Républicains,20211110_elb,2.7482,5.2518,10
+Philippe Poutou,NPA,20211105_hi,0.5299,1.4701,16
+Nicolas Dupont-Aignan,Debout la France,20211105_hi,1.3385,2.6615,12
+Arnaud Montebourg,NA,20211105_hi,1.3385,2.6615,13
+Fabien Roussel,Parti communiste,20211105_hi,1.3385,2.6615,14
+Jean Lassalle,NA,20211105_hi,0,0,18
+Fabien Roussel,Parti communiste,20211110_elb,1.1056,2.8944,14
+Anne Hidalgo,Parti socialiste,20211110_elb,4.4829,7.5171,10
+Philippe Poutou,NPA,20211110_elb,0.3644,1.6356,16
+Philippe Juvin,Les Républicains,20211110_elb,2.7482,5.2518,11
 Jean-Luc Mélenchon,France insoumise,20211110_elb,7.1718,10.8282,7
-Florian Philippot,Les Patriotes,20211110_elb,0.3644,1.6356,14
+Florian Philippot,Les Patriotes,20211110_elb,0.3644,1.6356,15
 Emmanuel Macron,LRM,20211110_elb,26.1012,31.8988,1
-François Asselineau,UPR,20211110_elb,0.3644,1.6356,18
-Nathalie Arthaud,Lutte ouvrière,20211110_elb,0.3644,1.6356,16
+François Asselineau,UPR,20211110_elb,0.3644,1.6356,19
+Nathalie Arthaud,Lutte ouvrière,20211110_elb,0.3644,1.6356,17
 Marine Le Pen,Rassemblement national,20211110_elb,15.5457,20.4543,2
-Arnaud Montebourg,NA,20211110_elb,1.1056,2.8944,12
+Arnaud Montebourg,NA,20211110_elb,1.1056,2.8944,13
 Yannick Jadot,EELV,20211110_elb,6.2669,9.7331,8
-Nicolas Dupont-Aignan,Debout la France,20211110_elb,1.1056,2.8944,11
+Nicolas Dupont-Aignan,Debout la France,20211110_elb,1.1056,2.8944,12
 Eric Zemmour,NA,20211110_elb,12.7189,17.2811,3
-Jean Lassalle,Résistons,20211110_elb,0.3644,1.6356,17
-Fabien Roussel,Parti communiste,20211110_elb,1.1056,2.8944,13
-Anne Hidalgo,Parti socialiste,20211110_elb,4.4829,7.5171,9
-Philippe Poutou,NPA,20211110_elb,0.3644,1.6356,15
-Philippe Juvin,Les Républicains,20211110_elb,2.7482,5.2518,10
+Jean Lassalle,Résistons,20211110_elb,0.3644,1.6356,18
+Fabien Roussel,Parti communiste,20211110_elb,1.1056,2.8944,14
+Anne Hidalgo,Parti socialiste,20211110_elb,4.4829,7.5171,10
+Philippe Poutou,NPA,20211110_elb,0.3644,1.6356,16
+Philippe Juvin,Les Républicains,20211110_elb,2.7482,5.2518,11
 Jean-Luc Mélenchon,France insoumise,20211110_elb,7.1718,10.8282,7
-Florian Philippot,Les Patriotes,20211110_elb,0.3644,1.6356,14
+Florian Philippot,Les Patriotes,20211110_elb,0.3644,1.6356,15
 Emmanuel Macron,LRM,20211110_elb,26.1012,31.8988,1
-François Asselineau,UPR,20211110_elb,0.3644,1.6356,18
-Nathalie Arthaud,Lutte ouvrière,20211110_elb,0.3644,1.6356,16
+François Asselineau,UPR,20211110_elb,0.3644,1.6356,19
+Nathalie Arthaud,Lutte ouvrière,20211110_elb,0.3644,1.6356,17
 Marine Le Pen,Rassemblement national,20211110_elb,15.5457,20.4543,2
-Arnaud Montebourg,NA,20211110_elb,1.1056,2.8944,12
+Arnaud Montebourg,NA,20211110_elb,1.1056,2.8944,13
 Yannick Jadot,EELV,20211110_elb,6.2669,9.7331,8
-Nicolas Dupont-Aignan,Debout la France,20211110_elb,1.1056,2.8944,11
+Nicolas Dupont-Aignan,Debout la France,20211110_elb,1.1056,2.8944,12
 Eric Zemmour,NA,20211110_elb,12.7189,17.2811,3
-Jean Lassalle,Résistons,20211110_elb,0.3644,1.6356,17
-Fabien Roussel,Parti communiste,20211110_elb,1.1056,2.8944,13
-Anne Hidalgo,Parti socialiste,20211110_elb,4.4829,7.5171,9
-Philippe Poutou,NPA,20211110_elb,0.3644,1.6356,15
-Philippe Juvin,Les Républicains,20211110_elb,2.7482,5.2518,10
+Jean Lassalle,Résistons,20211110_elb,0.3644,1.6356,18
+Fabien Roussel,Parti communiste,20211110_elb,1.1056,2.8944,14
+Anne Hidalgo,Parti socialiste,20211110_elb,4.4829,7.5171,10
+Philippe Poutou,NPA,20211110_elb,0.3644,1.6356,16
+Philippe Juvin,Les Républicains,20211110_elb,2.7482,5.2518,11
 Jean-Luc Mélenchon,France insoumise,20211110_elb,7.1718,10.8282,7
-Florian Philippot,Les Patriotes,20211110_elb,0.3644,1.6356,14
+Florian Philippot,Les Patriotes,20211110_elb,0.3644,1.6356,15
 Emmanuel Macron,LRM,20211110_elb,26.1012,31.8988,1
-François Asselineau,UPR,20211110_elb,0.3644,1.6356,18
-Nathalie Arthaud,Lutte ouvrière,20211110_elb,0.3644,1.6356,16
+François Asselineau,UPR,20211110_elb,0.3644,1.6356,19
+Nathalie Arthaud,Lutte ouvrière,20211110_elb,0.3644,1.6356,17
 Marine Le Pen,Rassemblement national,20211110_elb,15.5457,20.4543,2
-Arnaud Montebourg,NA,20211110_elb,1.1056,2.8944,12
+Arnaud Montebourg,NA,20211110_elb,1.1056,2.8944,13
 Yannick Jadot,EELV,20211110_elb,6.2669,9.7331,8
-Nicolas Dupont-Aignan,Debout la France,20211110_elb,1.1056,2.8944,11
+Nicolas Dupont-Aignan,Debout la France,20211110_elb,1.1056,2.8944,12
 Eric Zemmour,NA,20211110_elb,12.7189,17.2811,3
-Jean Lassalle,Résistons,20211110_elb,0.3644,1.6356,17
-Fabien Roussel,Parti communiste,20211110_elb,1.1056,2.8944,13
-Anne Hidalgo,Parti socialiste,20211110_elb,4.4829,7.5171,9
-Philippe Poutou,NPA,20211110_elb,0.3644,1.6356,15
-Philippe Juvin,Les Républicains,20211110_elb,2.7482,5.2518,10
+Jean Lassalle,Résistons,20211110_elb,0.3644,1.6356,18
+Fabien Roussel,Parti communiste,20211110_elb,1.1056,2.8944,14
+Anne Hidalgo,Parti socialiste,20211110_elb,4.4829,7.5171,10
+Philippe Poutou,NPA,20211110_elb,0.3644,1.6356,16
+Philippe Juvin,Les Républicains,20211110_elb,2.7482,5.2518,11
 Jean-Luc Mélenchon,France insoumise,20211110_elb,7.1718,10.8282,7
-Florian Philippot,Les Patriotes,20211110_elb,0.3644,1.6356,14
+Florian Philippot,Les Patriotes,20211110_elb,0.3644,1.6356,15
 Emmanuel Macron,LRM,20211110_elb,26.1012,31.8988,1
-François Asselineau,UPR,20211110_elb,0.3644,1.6356,18
-Nathalie Arthaud,Lutte ouvrière,20211110_elb,0.3644,1.6356,16
+François Asselineau,UPR,20211110_elb,0.3644,1.6356,19
+Nathalie Arthaud,Lutte ouvrière,20211110_elb,0.3644,1.6356,17
 Marine Le Pen,Rassemblement national,20211110_elb,15.5457,20.4543,2
-Arnaud Montebourg,NA,20211110_elb,1.1056,2.8944,12
+Arnaud Montebourg,NA,20211110_elb,1.1056,2.8944,13
 Yannick Jadot,EELV,20211110_elb,6.2669,9.7331,8
-Nicolas Dupont-Aignan,Debout la France,20211110_elb,1.1056,2.8944,11
+Nicolas Dupont-Aignan,Debout la France,20211110_elb,1.1056,2.8944,12
 Eric Zemmour,NA,20211110_elb,12.7189,17.2811,3
-Jean Lassalle,Résistons,20211110_elb,0.3644,1.6356,17
-Fabien Roussel,Parti communiste,20211110_elb,1.1056,2.8944,13
-Anne Hidalgo,Parti socialiste,20211110_elb,4.4829,7.5171,9
-Philippe Poutou,NPA,20211110_elb,0.3644,1.6356,15
-Philippe Juvin,Les Républicains,20211110_elb,2.7482,5.2518,10
+Jean Lassalle,Résistons,20211110_elb,0.3644,1.6356,18
+Fabien Roussel,Parti communiste,20211110_elb,1.1056,2.8944,14
+Anne Hidalgo,Parti socialiste,20211110_elb,4.4829,7.5171,10
+Philippe Poutou,NPA,20211110_elb,0.3644,1.6356,16
+Philippe Juvin,Les Républicains,20211110_elb,2.7482,5.2518,11
 Jean-Luc Mélenchon,France insoumise,20211110_elb,7.1718,10.8282,7
-Florian Philippot,Les Patriotes,20211110_elb,0.3644,1.6356,14
+Florian Philippot,Les Patriotes,20211110_elb,0.3644,1.6356,15
 Emmanuel Macron,LRM,20211110_elb,26.1012,31.8988,1
-François Asselineau,UPR,20211110_elb,0.3644,1.6356,18
-Nathalie Arthaud,Lutte ouvrière,20211110_elb,0.3644,1.6356,16
+François Asselineau,UPR,20211110_elb,0.3644,1.6356,19
+Nathalie Arthaud,Lutte ouvrière,20211110_elb,0.3644,1.6356,17
 Marine Le Pen,Rassemblement national,20211110_elb,15.5457,20.4543,2
-Arnaud Montebourg,NA,20211110_elb,1.1056,2.8944,12
+Arnaud Montebourg,NA,20211110_elb,1.1056,2.8944,13
 Yannick Jadot,EELV,20211110_elb,6.2669,9.7331,8
-Nicolas Dupont-Aignan,Debout la France,20211110_elb,1.1056,2.8944,11
+Nicolas Dupont-Aignan,Debout la France,20211110_elb,1.1056,2.8944,12
 Eric Zemmour,NA,20211110_elb,12.7189,17.2811,3
-Jean Lassalle,Résistons,20211110_elb,0.3644,1.6356,17
-Fabien Roussel,Parti communiste,20211109_clu,1.0273,1.9727,13
-Xavier Bertrand,Les Républicains,20211109_clu,9.7832,12.2168,4
-Emmanuel Macron,LRM,20211109_clu,21.3634,24.6366,1
-Arnaud Montebourg,NA,20211109_clu,2.3366,3.6634,12
-Nathalie Arthaud,Lutte ouvrière,20211109_clu,0.2257,0.7743,16
-Eric Zemmour,NA,20211109_clu,17.4743,20.5257,3
-Philippe Poutou,NPA,20211109_clu,0.613,1.387,15
-Anne Hidalgo,Parti socialiste,20211109_clu,3.2379,4.7621,9
-Nicolas Dupont-Aignan,Debout la France,20211109_clu,2.3366,3.6634,11
-Marine Le Pen,Rassemblement national,20211109_clu,12.6506,15.3494,2
-Jean-Luc Mélenchon,France insoumise,20211109_clu,9.7832,12.2168,7
-Yannick Jadot,EELV,20211109_clu,5.0764,6.9236,8
-Florian Philippot,Les Patriotes,20211109_clu,1.4555,2.5445,14
-Jean Lassalle,NA,20211109_clu,0.613,1.387,17
+Jean Lassalle,Résistons,20211110_elb,0.3644,1.6356,18
+Yannick Jadot,EELV,20211123_elb,6.2237,9.7763,8
+Jean Lassalle,Résistons,20211123_elb,0.3485,1.6515,18
+Eric Ciotti,Les Républicains,20211123_elb,3.573,6.427,9
+Philippe Poutou,NPA,20211123_elb,0.3485,1.6515,16
+Anne Hidalgo,Parti socialiste,20211123_elb,2.717,5.283,10
+Arnaud Montebourg,NA,20211123_elb,1.0834,2.9166,13
+François Asselineau,UPR,20211123_elb,0.3485,1.6515,19
+Fabien Roussel,Parti communiste,20211123_elb,1.0834,2.9166,14
+Nathalie Arthaud,Lutte ouvrière,20211123_elb,0.3485,1.6515,17
+Nicolas Dupont-Aignan,Debout la France,20211123_elb,1.8831,4.1169,12
+Florian Philippot,Les Patriotes,20211123_elb,0.3485,1.6515,15
+Emmanuel Macron,LRM,20211123_elb,23.1281,28.8719,1
+Jean-Luc Mélenchon,France insoumise,20211123_elb,7.1262,10.8738,7
+Eric Zemmour,NA,20211123_elb,10.7981,15.2019,3
+Marine Le Pen,Rassemblement national,20211123_elb,18.3332,23.6668,2
+Yannick Jadot,EELV,20211123_elb,6.2237,9.7763,8
+Jean Lassalle,Résistons,20211123_elb,0.3485,1.6515,18
+Eric Ciotti,Les Républicains,20211123_elb,3.573,6.427,9
+Philippe Poutou,NPA,20211123_elb,0.3485,1.6515,16
+Anne Hidalgo,Parti socialiste,20211123_elb,2.717,5.283,10
+Arnaud Montebourg,NA,20211123_elb,1.0834,2.9166,13
+François Asselineau,UPR,20211123_elb,0.3485,1.6515,19
+Fabien Roussel,Parti communiste,20211123_elb,1.0834,2.9166,14
+Nathalie Arthaud,Lutte ouvrière,20211123_elb,0.3485,1.6515,17
+Nicolas Dupont-Aignan,Debout la France,20211123_elb,1.8831,4.1169,12
+Florian Philippot,Les Patriotes,20211123_elb,0.3485,1.6515,15
+Emmanuel Macron,LRM,20211123_elb,23.1281,28.8719,1
+Jean-Luc Mélenchon,France insoumise,20211123_elb,7.1262,10.8738,7
+Eric Zemmour,NA,20211123_elb,10.7981,15.2019,3
+Marine Le Pen,Rassemblement national,20211123_elb,18.3332,23.6668,2
+Yannick Jadot,EELV,20211123_elb,6.2237,9.7763,8
+Jean Lassalle,Résistons,20211123_elb,0.3485,1.6515,18
+Eric Ciotti,Les Républicains,20211123_elb,3.573,6.427,9
+Philippe Poutou,NPA,20211123_elb,0.3485,1.6515,16
+Anne Hidalgo,Parti socialiste,20211123_elb,2.717,5.283,10
+Arnaud Montebourg,NA,20211123_elb,1.0834,2.9166,13
+François Asselineau,UPR,20211123_elb,0.3485,1.6515,19
+Fabien Roussel,Parti communiste,20211123_elb,1.0834,2.9166,14
+Nathalie Arthaud,Lutte ouvrière,20211123_elb,0.3485,1.6515,17
+Nicolas Dupont-Aignan,Debout la France,20211123_elb,1.8831,4.1169,12
+Florian Philippot,Les Patriotes,20211123_elb,0.3485,1.6515,15
+Emmanuel Macron,LRM,20211123_elb,23.1281,28.8719,1
+Jean-Luc Mélenchon,France insoumise,20211123_elb,7.1262,10.8738,7
+Eric Zemmour,NA,20211123_elb,10.7981,15.2019,3
+Marine Le Pen,Rassemblement national,20211123_elb,18.3332,23.6668,2
+Yannick Jadot,EELV,20211123_elb,6.2237,9.7763,8
+Jean Lassalle,Résistons,20211123_elb,0.3485,1.6515,18
+Eric Ciotti,Les Républicains,20211123_elb,3.573,6.427,9
+Philippe Poutou,NPA,20211123_elb,0.3485,1.6515,16
+Anne Hidalgo,Parti socialiste,20211123_elb,2.717,5.283,10
+Arnaud Montebourg,NA,20211123_elb,1.0834,2.9166,13
+François Asselineau,UPR,20211123_elb,0.3485,1.6515,19
+Fabien Roussel,Parti communiste,20211123_elb,1.0834,2.9166,14
+Nathalie Arthaud,Lutte ouvrière,20211123_elb,0.3485,1.6515,17
+Nicolas Dupont-Aignan,Debout la France,20211123_elb,1.8831,4.1169,12
+Florian Philippot,Les Patriotes,20211123_elb,0.3485,1.6515,15
+Emmanuel Macron,LRM,20211123_elb,23.1281,28.8719,1
+Jean-Luc Mélenchon,France insoumise,20211123_elb,7.1262,10.8738,7
+Eric Zemmour,NA,20211123_elb,10.7981,15.2019,3
+Marine Le Pen,Rassemblement national,20211123_elb,18.3332,23.6668,2
+Yannick Jadot,EELV,20211123_elb,6.2237,9.7763,8
+Jean Lassalle,Résistons,20211123_elb,0.3485,1.6515,18
+Eric Ciotti,Les Républicains,20211123_elb,3.573,6.427,9
+Philippe Poutou,NPA,20211123_elb,0.3485,1.6515,16
+Anne Hidalgo,Parti socialiste,20211123_elb,2.717,5.283,10
+Arnaud Montebourg,NA,20211123_elb,1.0834,2.9166,13
+François Asselineau,UPR,20211123_elb,0.3485,1.6515,19
+Fabien Roussel,Parti communiste,20211123_elb,1.0834,2.9166,14
+Nathalie Arthaud,Lutte ouvrière,20211123_elb,0.3485,1.6515,17
+Nicolas Dupont-Aignan,Debout la France,20211123_elb,1.8831,4.1169,12
+Florian Philippot,Les Patriotes,20211123_elb,0.3485,1.6515,15
+Emmanuel Macron,LRM,20211123_elb,23.1281,28.8719,1
+Jean-Luc Mélenchon,France insoumise,20211123_elb,7.1262,10.8738,7
+Eric Zemmour,NA,20211123_elb,10.7981,15.2019,3
+Marine Le Pen,Rassemblement national,20211123_elb,18.3332,23.6668,2
+Fabien Roussel,Parti communiste,20211109_clu,0.9267,2.0733,14
+Xavier Bertrand,Les Républicains,20211109_clu,9.5244,12.4756,4
+Emmanuel Macron,LRM,20211109_clu,21.0153,24.9847,1
+Arnaud Montebourg,NA,20211109_clu,2.1955,3.8045,13
+Nathalie Arthaud,Lutte ouvrière,20211109_clu,0.1674,0.8326,17
+Eric Zemmour,NA,20211109_clu,17.1499,20.8501,3
+Philippe Poutou,NPA,20211109_clu,0.5308,1.4692,16
+Anne Hidalgo,Parti socialiste,20211109_clu,3.0758,4.9242,10
+Nicolas Dupont-Aignan,Debout la France,20211109_clu,2.1955,3.8045,12
+Marine Le Pen,Rassemblement national,20211109_clu,12.3636,15.6364,2
+Jean-Luc Mélenchon,France insoumise,20211109_clu,9.5244,12.4756,7
+Yannick Jadot,EELV,20211109_clu,4.88,7.12,8
+Florian Philippot,Les Patriotes,20211109_clu,1.3397,2.6603,15
+Jean Lassalle,NA,20211109_clu,0.5308,1.4692,18
+Eric Zemmour,NA,20211117_clu,15.1342,18.8658,3
+Fabien Roussel,Parti communiste,20211117_clu,1.7245,3.2755,14
+Nathalie Arthaud,Lutte ouvrière,20211117_clu,0.1497,0.8503,17
+Eric Ciotti,Les Républicains,20211117_clu,4.8204,7.1796,9
+Arnaud Montebourg,NA,20211117_clu,1.3046,2.6954,13
+Marine Le Pen,Rassemblement national,20211117_clu,13.2264,16.7736,2
+Florian Philippot,Les Patriotes,20211117_clu,0.5058,1.4942,15
+Philippe Poutou,NPA,20211117_clu,1.3046,2.6954,16
+Anne Hidalgo,Parti socialiste,20211117_clu,3.9175,6.0825,10
+Yannick Jadot,EELV,20211117_clu,4.8204,7.1796,8
+Jean Lassalle,NA,20211117_clu,0.8962,2.1038,18
+Jean-Luc Mélenchon,France insoumise,20211117_clu,10.3859,13.6141,7
+Nicolas Dupont-Aignan,Debout la France,20211117_clu,1.7245,3.2755,12
+Emmanuel Macron,LRM,20211117_clu,24.7948,29.2052,1
+Eric Zemmour,NA,20211117_clu,15.1342,18.8658,3
+Fabien Roussel,Parti communiste,20211117_clu,1.7245,3.2755,14
+Nathalie Arthaud,Lutte ouvrière,20211117_clu,0.1497,0.8503,17
+Eric Ciotti,Les Républicains,20211117_clu,4.8204,7.1796,9
+Arnaud Montebourg,NA,20211117_clu,1.3046,2.6954,13
+Marine Le Pen,Rassemblement national,20211117_clu,13.2264,16.7736,2
+Florian Philippot,Les Patriotes,20211117_clu,0.5058,1.4942,15
+Philippe Poutou,NPA,20211117_clu,1.3046,2.6954,16
+Anne Hidalgo,Parti socialiste,20211117_clu,3.9175,6.0825,10
+Yannick Jadot,EELV,20211117_clu,4.8204,7.1796,8
+Jean Lassalle,NA,20211117_clu,0.8962,2.1038,18
+Jean-Luc Mélenchon,France insoumise,20211117_clu,10.3859,13.6141,7
+Nicolas Dupont-Aignan,Debout la France,20211117_clu,1.7245,3.2755,12
+Emmanuel Macron,LRM,20211117_clu,24.7948,29.2052,1
+Eric Zemmour,NA,20211117_clu,15.1342,18.8658,3
+Fabien Roussel,Parti communiste,20211117_clu,1.7245,3.2755,14
+Nathalie Arthaud,Lutte ouvrière,20211117_clu,0.1497,0.8503,17
+Eric Ciotti,Les Républicains,20211117_clu,4.8204,7.1796,9
+Arnaud Montebourg,NA,20211117_clu,1.3046,2.6954,13
+Marine Le Pen,Rassemblement national,20211117_clu,13.2264,16.7736,2
+Florian Philippot,Les Patriotes,20211117_clu,0.5058,1.4942,15
+Philippe Poutou,NPA,20211117_clu,1.3046,2.6954,16
+Anne Hidalgo,Parti socialiste,20211117_clu,3.9175,6.0825,10
+Yannick Jadot,EELV,20211117_clu,4.8204,7.1796,8
+Jean Lassalle,NA,20211117_clu,0.8962,2.1038,18
+Jean-Luc Mélenchon,France insoumise,20211117_clu,10.3859,13.6141,7
+Nicolas Dupont-Aignan,Debout la France,20211117_clu,1.7245,3.2755,12
+Emmanuel Macron,LRM,20211117_clu,24.7948,29.2052,1
+Eric Zemmour,NA,20211117_clu,15.1342,18.8658,3
+Fabien Roussel,Parti communiste,20211117_clu,1.7245,3.2755,14
+Nathalie Arthaud,Lutte ouvrière,20211117_clu,0.1497,0.8503,17
+Eric Ciotti,Les Républicains,20211117_clu,4.8204,7.1796,9
+Arnaud Montebourg,NA,20211117_clu,1.3046,2.6954,13
+Marine Le Pen,Rassemblement national,20211117_clu,13.2264,16.7736,2
+Florian Philippot,Les Patriotes,20211117_clu,0.5058,1.4942,15
+Philippe Poutou,NPA,20211117_clu,1.3046,2.6954,16
+Anne Hidalgo,Parti socialiste,20211117_clu,3.9175,6.0825,10
+Yannick Jadot,EELV,20211117_clu,4.8204,7.1796,8
+Jean Lassalle,NA,20211117_clu,0.8962,2.1038,18
+Jean-Luc Mélenchon,France insoumise,20211117_clu,10.3859,13.6141,7
+Nicolas Dupont-Aignan,Debout la France,20211117_clu,1.7245,3.2755,12
+Emmanuel Macron,LRM,20211117_clu,24.7948,29.2052,1
+Eric Zemmour,NA,20211117_clu,15.1342,18.8658,3
+Fabien Roussel,Parti communiste,20211117_clu,1.7245,3.2755,14
+Nathalie Arthaud,Lutte ouvrière,20211117_clu,0.1497,0.8503,17
+Eric Ciotti,Les Républicains,20211117_clu,4.8204,7.1796,9
+Arnaud Montebourg,NA,20211117_clu,1.3046,2.6954,13
+Marine Le Pen,Rassemblement national,20211117_clu,13.2264,16.7736,2
+Florian Philippot,Les Patriotes,20211117_clu,0.5058,1.4942,15
+Philippe Poutou,NPA,20211117_clu,1.3046,2.6954,16
+Anne Hidalgo,Parti socialiste,20211117_clu,3.9175,6.0825,10
+Yannick Jadot,EELV,20211117_clu,4.8204,7.1796,8
+Jean Lassalle,NA,20211117_clu,0.8962,2.1038,18
+Jean-Luc Mélenchon,France insoumise,20211117_clu,10.3859,13.6141,7
+Nicolas Dupont-Aignan,Debout la France,20211117_clu,1.7245,3.2755,12
+Emmanuel Macron,LRM,20211117_clu,24.7948,29.2052,1
 Emmanuel Macron,LRM,20211103_ifp,25.1678,30.8322,1
-Arnaud Montebourg,NA,20211103_ifp,2.3408,4.6592,12
+Arnaud Montebourg,NA,20211103_ifp,2.3408,4.6592,13
 Jean-Luc Mélenchon,France insoumise,20211103_ifp,7.1948,10.8052,7
-Jean Lassalle,NA,20211103_ifp,0.3724,1.6276,17
-Nicolas Dupont-Aignan,Debout la France,20211103_ifp,2.7639,5.2361,11
-Anne Hidalgo,Parti socialiste,20211103_ifp,4.502,7.498,9
-Philippe Poutou,NPA,20211103_ifp,0.3724,1.6276,15
+Jean Lassalle,NA,20211103_ifp,0.3724,1.6276,18
+Nicolas Dupont-Aignan,Debout la France,20211103_ifp,2.7639,5.2361,12
+Anne Hidalgo,Parti socialiste,20211103_ifp,4.502,7.498,10
+Philippe Poutou,NPA,20211103_ifp,0.3724,1.6276,16
 Marine Le Pen,Rassemblement national,20211103_ifp,15.5767,20.4233,2
-Nathalie Arthaud,Lutte ouvrière,20211103_ifp,0.0551,0.9449,16
-Philippe Juvin,Les Républicains,20211103_ifp,1.1169,2.8831,10
-Fabien Roussel,Parti communiste,20211103_ifp,1.1169,2.8831,13
+Nathalie Arthaud,Lutte ouvrière,20211103_ifp,0.0551,0.9449,17
+Philippe Juvin,Les Républicains,20211103_ifp,1.1169,2.8831,11
+Fabien Roussel,Parti communiste,20211103_ifp,1.1169,2.8831,14
 Eric Zemmour,NA,20211103_ifp,15.5767,20.4233,3
 Yannick Jadot,EELV,20211103_ifp,5.3906,8.6094,8
 Emmanuel Macron,LRM,20211103_ifp,25.1678,30.8322,1
-Arnaud Montebourg,NA,20211103_ifp,2.3408,4.6592,12
+Arnaud Montebourg,NA,20211103_ifp,2.3408,4.6592,13
 Jean-Luc Mélenchon,France insoumise,20211103_ifp,7.1948,10.8052,7
-Jean Lassalle,NA,20211103_ifp,0.3724,1.6276,17
-Nicolas Dupont-Aignan,Debout la France,20211103_ifp,2.7639,5.2361,11
-Anne Hidalgo,Parti socialiste,20211103_ifp,4.502,7.498,9
-Philippe Poutou,NPA,20211103_ifp,0.3724,1.6276,15
+Jean Lassalle,NA,20211103_ifp,0.3724,1.6276,18
+Nicolas Dupont-Aignan,Debout la France,20211103_ifp,2.7639,5.2361,12
+Anne Hidalgo,Parti socialiste,20211103_ifp,4.502,7.498,10
+Philippe Poutou,NPA,20211103_ifp,0.3724,1.6276,16
 Marine Le Pen,Rassemblement national,20211103_ifp,15.5767,20.4233,2
-Nathalie Arthaud,Lutte ouvrière,20211103_ifp,0.0551,0.9449,16
-Philippe Juvin,Les Républicains,20211103_ifp,1.1169,2.8831,10
-Fabien Roussel,Parti communiste,20211103_ifp,1.1169,2.8831,13
+Nathalie Arthaud,Lutte ouvrière,20211103_ifp,0.0551,0.9449,17
+Philippe Juvin,Les Républicains,20211103_ifp,1.1169,2.8831,11
+Fabien Roussel,Parti communiste,20211103_ifp,1.1169,2.8831,14
 Eric Zemmour,NA,20211103_ifp,15.5767,20.4233,3
 Yannick Jadot,EELV,20211103_ifp,5.3906,8.6094,8
 Emmanuel Macron,LRM,20211103_ifp,25.1678,30.8322,1
-Arnaud Montebourg,NA,20211103_ifp,2.3408,4.6592,12
+Arnaud Montebourg,NA,20211103_ifp,2.3408,4.6592,13
 Jean-Luc Mélenchon,France insoumise,20211103_ifp,7.1948,10.8052,7
-Jean Lassalle,NA,20211103_ifp,0.3724,1.6276,17
-Nicolas Dupont-Aignan,Debout la France,20211103_ifp,2.7639,5.2361,11
-Anne Hidalgo,Parti socialiste,20211103_ifp,4.502,7.498,9
-Philippe Poutou,NPA,20211103_ifp,0.3724,1.6276,15
+Jean Lassalle,NA,20211103_ifp,0.3724,1.6276,18
+Nicolas Dupont-Aignan,Debout la France,20211103_ifp,2.7639,5.2361,12
+Anne Hidalgo,Parti socialiste,20211103_ifp,4.502,7.498,10
+Philippe Poutou,NPA,20211103_ifp,0.3724,1.6276,16
 Marine Le Pen,Rassemblement national,20211103_ifp,15.5767,20.4233,2
-Nathalie Arthaud,Lutte ouvrière,20211103_ifp,0.0551,0.9449,16
-Philippe Juvin,Les Républicains,20211103_ifp,1.1169,2.8831,10
-Fabien Roussel,Parti communiste,20211103_ifp,1.1169,2.8831,13
+Nathalie Arthaud,Lutte ouvrière,20211103_ifp,0.0551,0.9449,17
+Philippe Juvin,Les Républicains,20211103_ifp,1.1169,2.8831,11
+Fabien Roussel,Parti communiste,20211103_ifp,1.1169,2.8831,14
 Eric Zemmour,NA,20211103_ifp,15.5767,20.4233,3
 Yannick Jadot,EELV,20211103_ifp,5.3906,8.6094,8
 Emmanuel Macron,LRM,20211103_ifp,25.1678,30.8322,1
-Arnaud Montebourg,NA,20211103_ifp,2.3408,4.6592,12
+Arnaud Montebourg,NA,20211103_ifp,2.3408,4.6592,13
 Jean-Luc Mélenchon,France insoumise,20211103_ifp,7.1948,10.8052,7
-Jean Lassalle,NA,20211103_ifp,0.3724,1.6276,17
-Nicolas Dupont-Aignan,Debout la France,20211103_ifp,2.7639,5.2361,11
-Anne Hidalgo,Parti socialiste,20211103_ifp,4.502,7.498,9
-Philippe Poutou,NPA,20211103_ifp,0.3724,1.6276,15
+Jean Lassalle,NA,20211103_ifp,0.3724,1.6276,18
+Nicolas Dupont-Aignan,Debout la France,20211103_ifp,2.7639,5.2361,12
+Anne Hidalgo,Parti socialiste,20211103_ifp,4.502,7.498,10
+Philippe Poutou,NPA,20211103_ifp,0.3724,1.6276,16
 Marine Le Pen,Rassemblement national,20211103_ifp,15.5767,20.4233,2
-Nathalie Arthaud,Lutte ouvrière,20211103_ifp,0.0551,0.9449,16
-Philippe Juvin,Les Républicains,20211103_ifp,1.1169,2.8831,10
-Fabien Roussel,Parti communiste,20211103_ifp,1.1169,2.8831,13
+Nathalie Arthaud,Lutte ouvrière,20211103_ifp,0.0551,0.9449,17
+Philippe Juvin,Les Républicains,20211103_ifp,1.1169,2.8831,11
+Fabien Roussel,Parti communiste,20211103_ifp,1.1169,2.8831,14
 Eric Zemmour,NA,20211103_ifp,15.5767,20.4233,3
 Yannick Jadot,EELV,20211103_ifp,5.3906,8.6094,8
 Emmanuel Macron,LRM,20211103_ifp,25.1678,30.8322,1
-Arnaud Montebourg,NA,20211103_ifp,2.3408,4.6592,12
+Arnaud Montebourg,NA,20211103_ifp,2.3408,4.6592,13
 Jean-Luc Mélenchon,France insoumise,20211103_ifp,7.1948,10.8052,7
-Jean Lassalle,NA,20211103_ifp,0.3724,1.6276,17
-Nicolas Dupont-Aignan,Debout la France,20211103_ifp,2.7639,5.2361,11
-Anne Hidalgo,Parti socialiste,20211103_ifp,4.502,7.498,9
-Philippe Poutou,NPA,20211103_ifp,0.3724,1.6276,15
+Jean Lassalle,NA,20211103_ifp,0.3724,1.6276,18
+Nicolas Dupont-Aignan,Debout la France,20211103_ifp,2.7639,5.2361,12
+Anne Hidalgo,Parti socialiste,20211103_ifp,4.502,7.498,10
+Philippe Poutou,NPA,20211103_ifp,0.3724,1.6276,16
 Marine Le Pen,Rassemblement national,20211103_ifp,15.5767,20.4233,2
-Nathalie Arthaud,Lutte ouvrière,20211103_ifp,0.0551,0.9449,16
-Philippe Juvin,Les Républicains,20211103_ifp,1.1169,2.8831,10
-Fabien Roussel,Parti communiste,20211103_ifp,1.1169,2.8831,13
+Nathalie Arthaud,Lutte ouvrière,20211103_ifp,0.0551,0.9449,17
+Philippe Juvin,Les Républicains,20211103_ifp,1.1169,2.8831,11
+Fabien Roussel,Parti communiste,20211103_ifp,1.1169,2.8831,14
 Eric Zemmour,NA,20211103_ifp,15.5767,20.4233,3
 Yannick Jadot,EELV,20211103_ifp,5.3906,8.6094,8
-Nathalie Arthaud,Lutte ouvrière,20211112_hi,0.5329,1.4671,16
+Florian Philippot,Les Patriotes,20211119_hi,1.3574,2.6426,15
+Valérie Pécresse,Les Républicains,20211119_hi,9.5637,12.4363,5
+Fabien Roussel,Parti communiste,20211119_hi,1.3574,2.6426,14
+Philippe Poutou,NPA,20211119_hi,0.5433,1.4567,16
+Eric Zemmour,NA,20211119_hi,14.3172,17.6828,3
+Arnaud Montebourg,NA,20211119_hi,0.5433,1.4567,13
+François Asselineau,UPR,20211119_hi,0,0,19
+Nicolas Dupont-Aignan,Debout la France,20211119_hi,1.3574,2.6426,12
+Emmanuel Macron,LRM,20211119_hi,22.0396,25.9604,1
+Jean-Luc Mélenchon,France insoumise,20211119_hi,8.6229,11.3771,7
+Marine Le Pen,Rassemblement national,20211119_hi,14.3172,17.6828,2
+Jean Lassalle,NA,20211119_hi,0,0,18
+Yannick Jadot,EELV,20211119_hi,7.6863,10.3137,8
+Nathalie Arthaud,Lutte ouvrière,20211119_hi,0.5433,1.4567,17
+Anne Hidalgo,Parti socialiste,20211119_hi,3.9996,6.0004,10
+Florian Philippot,Les Patriotes,20211119_hi,1.3574,2.6426,15
+Valérie Pécresse,Les Républicains,20211119_hi,9.5637,12.4363,5
+Fabien Roussel,Parti communiste,20211119_hi,1.3574,2.6426,14
+Philippe Poutou,NPA,20211119_hi,0.5433,1.4567,16
+Eric Zemmour,NA,20211119_hi,14.3172,17.6828,3
+Arnaud Montebourg,NA,20211119_hi,0.5433,1.4567,13
+François Asselineau,UPR,20211119_hi,0,0,19
+Nicolas Dupont-Aignan,Debout la France,20211119_hi,1.3574,2.6426,12
+Emmanuel Macron,LRM,20211119_hi,22.0396,25.9604,1
+Jean-Luc Mélenchon,France insoumise,20211119_hi,8.6229,11.3771,7
+Marine Le Pen,Rassemblement national,20211119_hi,14.3172,17.6828,2
+Jean Lassalle,NA,20211119_hi,0,0,18
+Yannick Jadot,EELV,20211119_hi,7.6863,10.3137,8
+Nathalie Arthaud,Lutte ouvrière,20211119_hi,0.5433,1.4567,17
+Anne Hidalgo,Parti socialiste,20211119_hi,3.9996,6.0004,10
+Florian Philippot,Les Patriotes,20211119_hi,1.3574,2.6426,15
+Valérie Pécresse,Les Républicains,20211119_hi,9.5637,12.4363,5
+Fabien Roussel,Parti communiste,20211119_hi,1.3574,2.6426,14
+Philippe Poutou,NPA,20211119_hi,0.5433,1.4567,16
+Eric Zemmour,NA,20211119_hi,14.3172,17.6828,3
+Arnaud Montebourg,NA,20211119_hi,0.5433,1.4567,13
+François Asselineau,UPR,20211119_hi,0,0,19
+Nicolas Dupont-Aignan,Debout la France,20211119_hi,1.3574,2.6426,12
+Emmanuel Macron,LRM,20211119_hi,22.0396,25.9604,1
+Jean-Luc Mélenchon,France insoumise,20211119_hi,8.6229,11.3771,7
+Marine Le Pen,Rassemblement national,20211119_hi,14.3172,17.6828,2
+Jean Lassalle,NA,20211119_hi,0,0,18
+Yannick Jadot,EELV,20211119_hi,7.6863,10.3137,8
+Nathalie Arthaud,Lutte ouvrière,20211119_hi,0.5433,1.4567,17
+Anne Hidalgo,Parti socialiste,20211119_hi,3.9996,6.0004,10
+Florian Philippot,Les Patriotes,20211119_hi,1.3574,2.6426,15
+Valérie Pécresse,Les Républicains,20211119_hi,9.5637,12.4363,5
+Fabien Roussel,Parti communiste,20211119_hi,1.3574,2.6426,14
+Philippe Poutou,NPA,20211119_hi,0.5433,1.4567,16
+Eric Zemmour,NA,20211119_hi,14.3172,17.6828,3
+Arnaud Montebourg,NA,20211119_hi,0.5433,1.4567,13
+François Asselineau,UPR,20211119_hi,0,0,19
+Nicolas Dupont-Aignan,Debout la France,20211119_hi,1.3574,2.6426,12
+Emmanuel Macron,LRM,20211119_hi,22.0396,25.9604,1
+Jean-Luc Mélenchon,France insoumise,20211119_hi,8.6229,11.3771,7
+Marine Le Pen,Rassemblement national,20211119_hi,14.3172,17.6828,2
+Jean Lassalle,NA,20211119_hi,0,0,18
+Yannick Jadot,EELV,20211119_hi,7.6863,10.3137,8
+Nathalie Arthaud,Lutte ouvrière,20211119_hi,0.5433,1.4567,17
+Anne Hidalgo,Parti socialiste,20211119_hi,3.9996,6.0004,10
+Florian Philippot,Les Patriotes,20211119_hi,1.3574,2.6426,15
+Valérie Pécresse,Les Républicains,20211119_hi,9.5637,12.4363,5
+Fabien Roussel,Parti communiste,20211119_hi,1.3574,2.6426,14
+Philippe Poutou,NPA,20211119_hi,0.5433,1.4567,16
+Eric Zemmour,NA,20211119_hi,14.3172,17.6828,3
+Arnaud Montebourg,NA,20211119_hi,0.5433,1.4567,13
+François Asselineau,UPR,20211119_hi,0,0,19
+Nicolas Dupont-Aignan,Debout la France,20211119_hi,1.3574,2.6426,12
+Emmanuel Macron,LRM,20211119_hi,22.0396,25.9604,1
+Jean-Luc Mélenchon,France insoumise,20211119_hi,8.6229,11.3771,7
+Marine Le Pen,Rassemblement national,20211119_hi,14.3172,17.6828,2
+Jean Lassalle,NA,20211119_hi,0,0,18
+Yannick Jadot,EELV,20211119_hi,7.6863,10.3137,8
+Nathalie Arthaud,Lutte ouvrière,20211119_hi,0.5433,1.4567,17
+Anne Hidalgo,Parti socialiste,20211119_hi,3.9996,6.0004,10
+Nathalie Arthaud,Lutte ouvrière,20211112_hi,0.5329,1.4671,17
 Marine Le Pen,Rassemblement national,20211112_hi,14.279,17.721,2
-François Asselineau,UPR,20211112_hi,0,0,18
-Florian Philippot,Les Patriotes,20211112_hi,1.3428,2.6572,14
-Fabien Roussel,Parti communiste,20211112_hi,1.3428,2.6572,13
-Arnaud Montebourg,NA,20211112_hi,1.3428,2.6572,12
-Anne Hidalgo,Parti socialiste,20211112_hi,3.0801,4.9199,9
+François Asselineau,UPR,20211112_hi,0,0,19
+Florian Philippot,Les Patriotes,20211112_hi,1.3428,2.6572,15
+Fabien Roussel,Parti communiste,20211112_hi,1.3428,2.6572,14
+Arnaud Montebourg,NA,20211112_hi,1.3428,2.6572,13
+Anne Hidalgo,Parti socialiste,20211112_hi,3.0801,4.9199,10
 Yannick Jadot,EELV,20211112_hi,7.6565,10.3435,8
-Jean Lassalle,NA,20211112_hi,0,0,17
+Jean Lassalle,NA,20211112_hi,0,0,18
 Valérie Pécresse,Les Républicains,20211112_hi,8.5917,11.4083,5
 Eric Zemmour,NA,20211112_hi,15.2366,18.7634,3
-Nicolas Dupont-Aignan,Debout la France,20211112_hi,1.3428,2.6572,11
+Nicolas Dupont-Aignan,Debout la France,20211112_hi,1.3428,2.6572,12
 Emmanuel Macron,LRM,20211112_hi,21.9951,26.0049,1
 Jean-Luc Mélenchon,France insoumise,20211112_hi,8.5917,11.4083,7
-Philippe Poutou,NPA,20211112_hi,0.5329,1.4671,15
-Nathalie Arthaud,Lutte ouvrière,20211112_hi,0.5329,1.4671,16
+Philippe Poutou,NPA,20211112_hi,0.5329,1.4671,16
+Nathalie Arthaud,Lutte ouvrière,20211112_hi,0.5329,1.4671,17
 Marine Le Pen,Rassemblement national,20211112_hi,14.279,17.721,2
-François Asselineau,UPR,20211112_hi,0,0,18
-Florian Philippot,Les Patriotes,20211112_hi,1.3428,2.6572,14
-Fabien Roussel,Parti communiste,20211112_hi,1.3428,2.6572,13
-Arnaud Montebourg,NA,20211112_hi,1.3428,2.6572,12
-Anne Hidalgo,Parti socialiste,20211112_hi,3.0801,4.9199,9
+François Asselineau,UPR,20211112_hi,0,0,19
+Florian Philippot,Les Patriotes,20211112_hi,1.3428,2.6572,15
+Fabien Roussel,Parti communiste,20211112_hi,1.3428,2.6572,14
+Arnaud Montebourg,NA,20211112_hi,1.3428,2.6572,13
+Anne Hidalgo,Parti socialiste,20211112_hi,3.0801,4.9199,10
 Yannick Jadot,EELV,20211112_hi,7.6565,10.3435,8
-Jean Lassalle,NA,20211112_hi,0,0,17
+Jean Lassalle,NA,20211112_hi,0,0,18
 Valérie Pécresse,Les Républicains,20211112_hi,8.5917,11.4083,5
 Eric Zemmour,NA,20211112_hi,15.2366,18.7634,3
-Nicolas Dupont-Aignan,Debout la France,20211112_hi,1.3428,2.6572,11
+Nicolas Dupont-Aignan,Debout la France,20211112_hi,1.3428,2.6572,12
 Emmanuel Macron,LRM,20211112_hi,21.9951,26.0049,1
 Jean-Luc Mélenchon,France insoumise,20211112_hi,8.5917,11.4083,7
-Philippe Poutou,NPA,20211112_hi,0.5329,1.4671,15
-Nathalie Arthaud,Lutte ouvrière,20211112_hi,0.5329,1.4671,16
+Philippe Poutou,NPA,20211112_hi,0.5329,1.4671,16
+Nathalie Arthaud,Lutte ouvrière,20211112_hi,0.5329,1.4671,17
 Marine Le Pen,Rassemblement national,20211112_hi,14.279,17.721,2
-François Asselineau,UPR,20211112_hi,0,0,18
-Florian Philippot,Les Patriotes,20211112_hi,1.3428,2.6572,14
-Fabien Roussel,Parti communiste,20211112_hi,1.3428,2.6572,13
-Arnaud Montebourg,NA,20211112_hi,1.3428,2.6572,12
-Anne Hidalgo,Parti socialiste,20211112_hi,3.0801,4.9199,9
+François Asselineau,UPR,20211112_hi,0,0,19
+Florian Philippot,Les Patriotes,20211112_hi,1.3428,2.6572,15
+Fabien Roussel,Parti communiste,20211112_hi,1.3428,2.6572,14
+Arnaud Montebourg,NA,20211112_hi,1.3428,2.6572,13
+Anne Hidalgo,Parti socialiste,20211112_hi,3.0801,4.9199,10
 Yannick Jadot,EELV,20211112_hi,7.6565,10.3435,8
-Jean Lassalle,NA,20211112_hi,0,0,17
+Jean Lassalle,NA,20211112_hi,0,0,18
 Valérie Pécresse,Les Républicains,20211112_hi,8.5917,11.4083,5
 Eric Zemmour,NA,20211112_hi,15.2366,18.7634,3
-Nicolas Dupont-Aignan,Debout la France,20211112_hi,1.3428,2.6572,11
+Nicolas Dupont-Aignan,Debout la France,20211112_hi,1.3428,2.6572,12
 Emmanuel Macron,LRM,20211112_hi,21.9951,26.0049,1
 Jean-Luc Mélenchon,France insoumise,20211112_hi,8.5917,11.4083,7
-Philippe Poutou,NPA,20211112_hi,0.5329,1.4671,15
+Philippe Poutou,NPA,20211112_hi,0.5329,1.4671,16
 Michel Barnier,Les Républicains,20211105_odx,7.7662,10.2338,6
 Jean-Luc Mélenchon,France insoumise,20211105_odx,7.7662,10.2338,7
-Nathalie Arthaud,Lutte ouvrière,20211105_odx,0.5711,1.4289,16
-Arnaud Montebourg,NA,20211105_odx,1.8269,3.1731,12
+Nathalie Arthaud,Lutte ouvrière,20211105_odx,0.5711,1.4289,17
+Arnaud Montebourg,NA,20211105_odx,1.8269,3.1731,13
 Eric Zemmour,NA,20211105_odx,12.9821,16.0179,3
 Marine Le Pen,Rassemblement national,20211105_odx,17.3088,20.6912,2
-Anne Hidalgo,Parti socialiste,20211105_odx,4.0604,5.9396,9
-Jean Lassalle,NA,20211105_odx,0.5711,1.4289,17
-Philippe Poutou,NPA,20211105_odx,1.3964,2.6036,15
+Anne Hidalgo,Parti socialiste,20211105_odx,4.0604,5.9396,10
+Jean Lassalle,NA,20211105_odx,0.5711,1.4289,18
+Philippe Poutou,NPA,20211105_odx,1.3964,2.6036,16
 Yannick Jadot,EELV,20211105_odx,5.9,8.1,8
-Fabien Roussel,Parti communiste,20211105_odx,1.3964,2.6036,13
-Nicolas Dupont-Aignan,Debout la France,20211105_odx,2.2646,3.7354,11
+Fabien Roussel,Parti communiste,20211105_odx,1.3964,2.6036,14
+Nicolas Dupont-Aignan,Debout la France,20211105_odx,2.2646,3.7354,12
 Emmanuel Macron,LRM,20211105_odx,23.1332,26.8668,1
 Michel Barnier,Les Républicains,20211105_odx,7.7662,10.2338,6
 Jean-Luc Mélenchon,France insoumise,20211105_odx,7.7662,10.2338,7
-Nathalie Arthaud,Lutte ouvrière,20211105_odx,0.5711,1.4289,16
-Arnaud Montebourg,NA,20211105_odx,1.8269,3.1731,12
+Nathalie Arthaud,Lutte ouvrière,20211105_odx,0.5711,1.4289,17
+Arnaud Montebourg,NA,20211105_odx,1.8269,3.1731,13
 Eric Zemmour,NA,20211105_odx,12.9821,16.0179,3
 Marine Le Pen,Rassemblement national,20211105_odx,17.3088,20.6912,2
-Anne Hidalgo,Parti socialiste,20211105_odx,4.0604,5.9396,9
-Jean Lassalle,NA,20211105_odx,0.5711,1.4289,17
-Philippe Poutou,NPA,20211105_odx,1.3964,2.6036,15
+Anne Hidalgo,Parti socialiste,20211105_odx,4.0604,5.9396,10
+Jean Lassalle,NA,20211105_odx,0.5711,1.4289,18
+Philippe Poutou,NPA,20211105_odx,1.3964,2.6036,16
 Yannick Jadot,EELV,20211105_odx,5.9,8.1,8
-Fabien Roussel,Parti communiste,20211105_odx,1.3964,2.6036,13
-Nicolas Dupont-Aignan,Debout la France,20211105_odx,2.2646,3.7354,11
+Fabien Roussel,Parti communiste,20211105_odx,1.3964,2.6036,14
+Nicolas Dupont-Aignan,Debout la France,20211105_odx,2.2646,3.7354,12
 Emmanuel Macron,LRM,20211105_odx,23.1332,26.8668,1
 Michel Barnier,Les Républicains,20211105_odx,7.7662,10.2338,6
 Jean-Luc Mélenchon,France insoumise,20211105_odx,7.7662,10.2338,7
-Nathalie Arthaud,Lutte ouvrière,20211105_odx,0.5711,1.4289,16
-Arnaud Montebourg,NA,20211105_odx,1.8269,3.1731,12
+Nathalie Arthaud,Lutte ouvrière,20211105_odx,0.5711,1.4289,17
+Arnaud Montebourg,NA,20211105_odx,1.8269,3.1731,13
 Eric Zemmour,NA,20211105_odx,12.9821,16.0179,3
 Marine Le Pen,Rassemblement national,20211105_odx,17.3088,20.6912,2
-Anne Hidalgo,Parti socialiste,20211105_odx,4.0604,5.9396,9
-Jean Lassalle,NA,20211105_odx,0.5711,1.4289,17
-Philippe Poutou,NPA,20211105_odx,1.3964,2.6036,15
+Anne Hidalgo,Parti socialiste,20211105_odx,4.0604,5.9396,10
+Jean Lassalle,NA,20211105_odx,0.5711,1.4289,18
+Philippe Poutou,NPA,20211105_odx,1.3964,2.6036,16
 Yannick Jadot,EELV,20211105_odx,5.9,8.1,8
-Fabien Roussel,Parti communiste,20211105_odx,1.3964,2.6036,13
-Nicolas Dupont-Aignan,Debout la France,20211105_odx,2.2646,3.7354,11
+Fabien Roussel,Parti communiste,20211105_odx,1.3964,2.6036,14
+Nicolas Dupont-Aignan,Debout la France,20211105_odx,2.2646,3.7354,12
 Emmanuel Macron,LRM,20211105_odx,23.1332,26.8668,1

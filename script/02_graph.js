@@ -35,6 +35,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
         return {
             candidat: d.candidat,
             nom: d.nom,
+            nom_abbr: d.nom_abbr,
             date: new Date(d.date),
             ymin: +d.ymin,
             ymax: +d.ymax,
@@ -64,6 +65,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
 
             let obj = {
                 candidat: d.candidat,
+                nom_abbr: d.nom_abbr,
                 order: d.order
             }
 
@@ -196,7 +198,8 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
         .data(candidatsListeFull)
         .join("div")
         .attr("class", "box-candidat")
-        .html(d => d.candidat)
+        .html(d => d.nom_abbr)
+        .style("font-size", "0.7em")
         .style("color", d => {
             if (candidatsListe.includes(d.candidat)) {
                 return "white"
@@ -219,13 +222,13 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     // Création du canevas SVG
 
     const width = 500;
-    const height = 700;
+    const height = 800;
     const marginH = 40;
     const marginV = 20;
 
     const viewBox = {
-        width: width + marginH * 6.4,
-        height: height + marginV * 3
+        width: width + marginH * 6.5,
+        height: height + marginV
     }
 
     // création du canevas pour le Graphique
@@ -239,7 +242,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     // création d'un groupe g pour le Graphique
     const svgPlot = svg
         .append("g")
-        .attr("transform", `translate(${marginH*1.2}, ${marginV})`);
+        .attr("transform", `translate(${marginH*1.2}, ${0})`);
 
     //---------------------------------------------------------------------------------------
 
@@ -278,7 +281,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     // échelle linéaire pour l'axe des Y
     const scaleY = d3
         .scaleLinear()
-        .domain([0, d3.max(tidyData, (d) => d.ymax)])
+        .domain([0, d3.max(tidyData, (d) => d.ymax+5)])
         .range([height, 0]);
 
     // échelee temporelle pour l'axe des X
