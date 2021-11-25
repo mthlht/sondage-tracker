@@ -199,7 +199,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
         .join("div")
         .attr("class", "box-candidat")
         .html(d => d.nom_abbr)
-        .style("font-size", "0.7em")
+        .style("font-size", "0.9em")
         .style("color", d => {
             if (candidatsListe.includes(d.candidat)) {
                 return "white"
