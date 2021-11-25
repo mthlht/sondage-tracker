@@ -219,7 +219,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     // Création du canevas SVG
 
     const width = 500;
-    const height = 600;
+    const height = 900;
     const marginH = 40;
     const marginV = 20;
 
@@ -461,6 +461,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     divCandidats
         // MOUSEOVER
         .on("mouseover", function () {
+            
             d3.select(this)
                 .style("background-color", d => paletteCouleurs[d.candidat])
                 .style("color", "white")
@@ -482,8 +483,8 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
 
                 candidatsListe.push(candidatOnClick)
                 d3.select(this)
-                .style("background-color", "white")
-                .style("color", d => paletteCouleurs[d.candidat])
+                .style("background-color", d => paletteCouleurs[d.candidat])
+                .style("color", "white")
 
             } else if (candidatsListe.includes(candidatOnClick)) {
 
@@ -492,8 +493,8 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
                 })
 
                 d3.select(this)
-                .style("background-color", d => paletteCouleurs[d.candidat])
-                .style("color", d => "white")
+                .style("background-color", "white")
+                .style("color", d => paletteCouleurs[d.candidat])
 
             }
 
