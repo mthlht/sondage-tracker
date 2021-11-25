@@ -219,7 +219,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     // Création du canevas SVG
 
     const width = 500;
-    const height = 600;
+    const height = 700;
     const marginH = 40;
     const marginV = 20;
 
@@ -425,7 +425,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     let force = d3
         .forceSimulation()
         .nodes(labels)
-        .force("collide", d3.forceCollide(10))
+        .force("collide", d3.forceCollide(14))
         .force("y", d3.forceY((d) => d.targetY).strength(1))
         .force('clamp', forceClamp(0, height))
         .stop();
@@ -599,7 +599,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
             force = d3
                 .forceSimulation()
                 .nodes(labels)
-                .force("collide", d3.forceCollide(10))
+                .force("collide", d3.forceCollide(14))
                 .force("y", d3.forceY((d) => d.targetY).strength(1))
                 .force('clamp', forceClamp(0, height))
                 .stop();
