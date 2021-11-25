@@ -219,7 +219,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     // Création du canevas SVG
 
     const width = 500;
-    const height = 900;
+    const height = 600;
     const marginH = 40;
     const marginV = 20;
 
