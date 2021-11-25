@@ -211,11 +211,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
 
             let col = paletteCouleurs[d.candidat];
 
-            if (candidatsListe.includes(d.candidat)) {
-
-                return `0.1em solid ${col}`
-
-            } else { return `0.1em solid ${col}` }
+            return `0.1em solid ${col}`
 
         })
 
@@ -228,7 +224,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
     const marginV = 20;
 
     const viewBox = {
-        width: width + marginH * 3,
+        width: width + marginH * 5,
         height: height + marginV * 2
     }
 
@@ -399,6 +395,64 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
             return paletteCouleurs[d.candidat]
         })
 
+    //---------------------------------------------------------------------------------------
+
+    // Ajout des dernières valeurs
+
+    // Annotations - affichage des dernières valeurs
+
+    // Création de noeuds
+    let labels = dataToPoints.map((d) => {
+        return {
+            fx: 0,
+            targetY: scaleY(d.ymean),
+        };
+    });
+
+    const forceClamp = (min, max) => {
+        let nodes;
+        const force = () => {
+            nodes.forEach(n => {
+                if (n.y > max) n.y = max;
+                if (n.y < min) n.y = min;
+            });
+        };
+        force.initialize = (_) => nodes = _;
+        return force;
+    };
+
+    // Simulation de force sur les noeuds
+    let force = d3
+        .forceSimulation()
+        .nodes(labels)
+        .force("collide", d3.forceCollide(10))
+        .force("y", d3.forceY((d) => d.targetY).strength(1))
+        .force('clamp', forceClamp(0, height))
+        .stop();
+
+    // Execute la simulation
+    for (let i = 0; i < 300; i++) force.tick();
+
+    // Ajout d'une valeur y dans chaque objet de l'array lastValues
+    labels.sort((a, b) => a.y - b.y);
+    dataToPoints.sort((a, b) => b.ymean - a.ymean);
+    dataToPoints.forEach((d, i) => (d.y = labels[i].y));
+
+    // Ajout des valeurs sur le graphique
+    const gLabels = svgPlot
+        .append("g")
+
+    gLabels
+        .selectAll("g")
+        .data(dataToPoints)
+        .join("g")
+        .append("text")
+        .attr("x", width + 8)
+        .attr("y", (d) => d.y)
+        .text((d) => d.nom + " " + Math.round(d.ymean) + "%")
+        .style("font-weight", "bold")
+        .style("fill", d => paletteCouleurs[d.candidat]);
+
 
     //---------------------------------------------------------------------------------------
 
@@ -410,13 +464,6 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
             d3.select(this)
                 .style("background-color", d => paletteCouleurs[d.candidat])
                 .style("color", "white")
-                .style("border", d => {
-
-                    let col = paletteCouleurs[d.candidat];
-
-                    return `0.15em solid ${col}`
-
-                })
                 .style("cursor", "pointer");
         })
         // MOUSEOUT
@@ -424,18 +471,6 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
             d3.select(this)
                 .style("background-color", d => candidatsListe.includes(d.candidat) ? paletteCouleurs[d.candidat] : "white")
                 .style("color", d => candidatsListe.includes(d.candidat) ? "white" : paletteCouleurs[d.candidat])
-                .style("border", d => {
-
-                    let col = paletteCouleurs[d.candidat];
-
-                    if (candidatsListe.includes(d.candidat)) {
-
-                        return `0.15em solid ${col}`
-
-                    } else { return `0.15em solid ${col}99` }
-
-
-                })
                 .style("cursor", "default");
         })
         // CLICK
@@ -480,8 +515,12 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
             gAreas
                 .selectAll("g")
                 .remove();
-            
+
             gCircles
+                .selectAll("g")
+                .remove()
+
+            gLabels
                 .selectAll("g")
                 .remove()
 
@@ -540,7 +579,46 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
                 .attr("fill", d => {
 
                     return paletteCouleurs[d.candidat]
-                })
+                });
+
+            // RE-PROJECTION DES LABELS
+
+            // Création de noeuds
+            labels = dataToPoints.map((d) => {
+                return {
+                    fx: 0,
+                    targetY: scaleY(d.ymean)
+                };
+            });
+
+            // Simulation de force sur les noeuds
+            force = d3
+                .forceSimulation()
+                .nodes(labels)
+                .force("collide", d3.forceCollide(10))
+                .force("y", d3.forceY((d) => d.targetY).strength(1))
+                .force('clamp', forceClamp(0, height))
+                .stop();
+
+            // Execute la simulation
+            for (let i = 0; i < 300; i++) force.tick();
+
+            // Ajout d'une valeur y dans chaque objet de l'array lastValues
+            labels.sort((a, b) => a.y - b.y);
+            dataToPoints.sort((a, b) => b.ymean - a.ymean);
+            dataToPoints.forEach((d, i) => (d.y = labels[i].y));
+
+            // Ajout des valeurs sur le graphique
+            gLabels
+                .selectAll("g")
+                .data(dataToPoints)
+                .join("g")
+                .append("text")
+                .attr("x", width + 8)
+                .attr("y", (d) => d.y)
+                .text((d) => d.nom + " " + Math.round(d.ymean) + "%")
+                .style("font-weight", "bold")
+                .style("fill", d => paletteCouleurs[d.candidat]);
 
         })
 
