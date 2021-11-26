@@ -100,6 +100,12 @@ body {
     align-items: center;
 }
 
+.clipping {
+    -webkit-clip-path: url(#clip-path);
+    clip-path: url(#clip-path);
+
+}
+
 .candidat-nom {
     margin-bottom: 0;
     width:80%;
