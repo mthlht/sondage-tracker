@@ -197,10 +197,9 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
     .attr('cy', 30)
     .attr('r', 28);
 
-
   divPhotoSvg
     .append('g')
-    .attr('clip-path', 'url(#clip-path)')
+    .style('clip-path', 'url(#clip-path)')
     .style('-webkit-clip-path', 'url(#clip-path)')
     .append('image')
     .attr('xlink:href', d => d.img_url)
