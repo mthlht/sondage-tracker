@@ -190,7 +190,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
 
    divPhotoSvg
     .append('defs')
-    .append('clipPath')
+    .append('clippath')
     .attr('id', 'clip')
     .append('circle')
     .attr('cx', 30)
