@@ -1,8 +1,8 @@
 d3.csv('data/df_sondages_classement.csv').then(data => {
     const graphCfg = {
         target: `#graph_01`,
-        title: `Quelle moyenne ces 30 derniers jours ?`,
-        subtitle: `Intentions de vote pour le premier tour, toutes hypothèses de candidature confondues`,
+        title: `Classement des candidats selon les sondages des trois dernières semaines ?`,
+        subtitle: ``,
         caption: `Source : <a href="https://twitter.com/NspPolls" target="_blank">NspPolls</a> - Crédits : Franceinfo`,
         type: 'landscape',
         device: window.screenDevice,
@@ -21,6 +21,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
           
           acc[candidat]['resultats'].push({
             'nom':candidat,
+            'nuance': d.nuance,
             'min':+d.erreur_inf,
             'max':+d.erreur_sup
         })
@@ -32,9 +33,12 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
               'nom':candidat,
               'parti': d.parti,
               'rank': +d.rank,
+              'img_url': d.img_url,
+              'nuance': d.nuance,
               'resultats': [
                 {
                   'nom':candidat,
+                  'nuance': d.nuance,
                   'min':+d.erreur_inf,
                   'max':+d.erreur_sup
               }]
@@ -81,7 +85,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
 
   }, {});
 
-  console.log(dataMinMax)
+  console.log(tidyData)
 
     //---------------------------------------------------------------------------------------
 
@@ -142,26 +146,13 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
 // Création d'une nomenclature de couleurs
 
   paletteCouleurs = {
-    'Emmanuel Macron': '#9859FC',
-    'Marine Le Pen': '#002e61',
-    'Eric Zemmour': '#002e61',
-    'Xavier Bertrand': '#037bfc',
-    'Valérie Pécresse': '#037bfc',
-    'Jean-Luc Mélenchon': '#db1616',
-    'Yannick Jadot': '#04b34d',
-    'Michel Barnier': '#037bfc',
-    'Anne Hidalgo': '#ff6daa',
-    'Arnaud Montebourg': '#ff6daa',
-    'Nicolas Dupont-Aignan': '#002e61',
-    'Fabien Roussel': '#db1616',
-    'Philippe Poutou': '#db1616',
-    'Nathalie Arthaud': '#db1616',
-    'Jean Lassalle': '#777f7f',
-    'Jean-Frédéric Poisson': '#002e61',
-    'Florian Philippot': '#002e61',
-    'Jean-Christophe Lagarde': '#037bfc',
-    'François Asselineau': '#777f7f',
-    'Philippe Juvin': '#037bfc'
+    'EXGA': '#db1616',
+    'GAUC': '#ff6daa',
+    'ECO': '#04b34d',
+    'CENT': '#9859FC',
+    'DROI': '#037bfc',
+    'EXDR': '#002e61',
+    'DIV': 'grey'
   }
 
 //---------------------------------------------------------------------------------------
@@ -206,14 +197,12 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
     .attr('cy', 30)
     .attr('r', 28);
 
-  
-
 
   divPhotoSvg
     .append('g')
     .attr('clip-path', 'url(#clip-path)')
     .append('image')
-    .attr('xlink:href', 'favicon.ico')
+    .attr('xlink:href', d => d.img_url)
     .attr('x', 6)
     .attr('y', 6)
     .attr('width', 50)
@@ -226,8 +215,8 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
     .append('circle')
     .attr('r', 26)
     .attr('fill', 'transparent')
-    .attr('stroke', d => paletteCouleurs[d['nom']])
-    .attr('stroke-width', 6);
+    .attr('stroke', d => paletteCouleurs[d['nuance']])
+    .attr('stroke-width', 4);
 
  //---------------------------------------------------------------------------------------
 
@@ -284,7 +273,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
      .attr("x", (d) => scaleX(d['min']+4))
      .attr("width", (d) => scaleX((d['max']+4) - (d['min']+4)))
      .attr("height", 38) // height des barres avec l'échelle d'épaiseur
-     .attr("fill", d => paletteCouleurs[d['nom']])
+     .attr("fill", d => paletteCouleurs[d['nuance']])
      .attr("opacity", 0.1);
 
     
