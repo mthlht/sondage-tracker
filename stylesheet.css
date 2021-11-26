@@ -96,9 +96,21 @@ body {
     max-width: 40px;
     margin-left: 5px;
     margin-right: 5px;
-    width:20%;
-    align-items: center;
+    width:22%;
+    align-items: bottom;
 }
+
+.circle-img {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .circle-img img {
+    border-radius: 50%;
+    width: 90%;
+    height: 80%;
+    border: 2.5px solid;
+  }
 
 .candidat-nom {
     margin-bottom: 0;

@@ -185,52 +185,13 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
     .append('div')
     .attr('class', 'photo-box');
 
-  divPhotoSvg = divPhoto
-    .append('svg')
-    .attr("viewBox", [0, 0, 60, 60])
-    .attr("preserveAspectRatio", "xMinYMid");
 
-
-   const photoDefs = divPhotoSvg
-    .append('defs')
-
-  photoDefs
-    .append('clipPath')
-    .attr('id', d => `${d.initiales}-clip`)
-    .style('-webkit-transform', 'translateZ(1px)')
-    .append('circle')
-    .attr('cx', 30)
-    .attr('cy', 30)
-    .attr('r', 28);
-
-  photoDefs
-    .append('clippath')
-    .attr('id', d => `${d.initiales}-clip_webkit`)
-    .append('circle')
-    .attr('cx', 30)
-    .attr('cy', 30)
-    .attr('r', 28);
-
-  divPhotoSvg
-    .append('g')
-    .style('clip-path',d => `url(#${d.initiales}-clip)`)
-    .style('-webkit-clip-path',d => `url(#${d.initiales}-clip_webkit)`)
-    .append('image')
-    .attr('xlink:href', d => d.img_url)
-    .attr('x', 6)
-    .attr('y', 6)
-    .attr('width', 50)
-    .attr('height', 50);
-
-    divPhotoSvg
-    .append('g')
-    .attr("class", "ring")
-    .attr('transform', 'translate(30, 30)')
-    .append('circle')
-    .attr('r', 26)
-    .attr('fill', 'transparent')
-    .attr('stroke', d => paletteCouleurs[d['nuance']])
-    .attr('stroke-width', 4);
+  const circlePhoto = divPhoto
+    .append('div')
+    .attr('class', 'circle-img')
+    .append('img')
+    .attr('src', d => d.img_url)
+    .style('border-color', d => paletteCouleurs[d.nuance]);
 
  //---------------------------------------------------------------------------------------
 
