@@ -191,8 +191,10 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
     .attr("preserveAspectRatio", "xMinYMid");
 
 
-   divPhotoSvg
-    //.append('defs')
+   const photoDefs = divPhotoSvg
+    .append('defs')
+
+  photoDefs
     .append('clipPath')
     .attr('id', d => `${d.initiales}-clip`)
     .append('circle')
@@ -200,16 +202,24 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
     .attr('cy', 30)
     .attr('r', 28);
 
+  photoDefs
+    .append('clippath')
+    .attr('id', d => `${d.initiales}-clip_webkit`)
+    .append('circle')
+    .attr('cx', 30)
+    .attr('cy', 30)
+    .attr('r', 28);
+
   divPhotoSvg
     .append('g')
+    .style('clip-path',d => `url(#${d.initiales}-clip)`)
+    .style('-webkit-clip-path',d => `url(#${d.initiales}-clip_webkit)`)
     .append('image')
     .attr('xlink:href', d => d.img_url)
     .attr('x', 6)
     .attr('y', 6)
     .attr('width', 50)
-    .attr('height', 50)
-    .style('clip-path',d => `url(#${d.initiales}-clip)`)
-    .style('-webkit-clip-path',d => `url(#${d.initiales}-clip)`);
+    .attr('height', 50);
 
     divPhotoSvg
     .append('g')
