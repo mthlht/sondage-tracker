@@ -98,18 +98,14 @@ body {
     margin-right: 5px;
     width:22%;
     align-items: bottom;
+    padding: 0.1em;
 }
 
-.circle-img {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .circle-img img {
+  .circle-img {
     border-radius: 50%;
     width: 90%;
     height: 80%;
-    border: 2.5px solid;
+    border: 0.2em solid;
   }
 
 .candidat-nom {

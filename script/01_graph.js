@@ -187,9 +187,8 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
 
 
   const circlePhoto = divPhoto
-    .append('div')
-    .attr('class', 'circle-img')
     .append('img')
+    .attr('class', 'circle-img')
     .attr('src', d => d.img_url)
     .style('border-color', d => paletteCouleurs[d.nuance]);
 
