@@ -191,7 +191,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
    divPhotoSvg
     //.append('defs')
     .append('clipPath')
-    .attr('id', 'clip-circle')
+    .attr('id', d => `${d.candidat}-clip`)
     .append('circle')
     .attr('cx', 30)
     .attr('cy', 30)
@@ -199,8 +199,8 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
 
   divPhotoSvg
     .append('g')
-    .style('clip-path', 'url(#clip-circle)')
-    .style('-webkit-clip-path', 'circle(30, 30, 28)')
+    .style('clip-path',d => `url(#${d.candidat}-clip)`)
+    .style('-webkit-clip-path',d => `url(#${d.candidat}-clip)`)
     .append('image')
     .attr('xlink:href', d => d.img_url)
     .attr('x', 6)
