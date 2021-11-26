@@ -22,6 +22,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
           acc[candidat]['resultats'].push({
             'nom':candidat,
             'nuance': d.nuance,
+            'initiales': d.initiales,
             'min':+d.erreur_inf,
             'max':+d.erreur_sup
         })
@@ -31,6 +32,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
 
           acc[candidat] = {
               'nom':candidat,
+              'initiales': d.initiales,
               'parti': d.parti,
               'rank': +d.rank,
               'img_url': d.img_url,
@@ -38,6 +40,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
               'resultats': [
                 {
                   'nom':candidat,
+                  'initiales': d.initiales,
                   'nuance': d.nuance,
                   'min':+d.erreur_inf,
                   'max':+d.erreur_sup
@@ -191,7 +194,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
    divPhotoSvg
     //.append('defs')
     .append('clipPath')
-    .attr('id', d => `${d.candidat}-clip`)
+    .attr('id', d => `${d.initiales}-clip`)
     .append('circle')
     .attr('cx', 30)
     .attr('cy', 30)
@@ -199,8 +202,8 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
 
   divPhotoSvg
     .append('g')
-    .style('clip-path',d => `url(#${d.candidat}-clip)`)
-    .style('-webkit-clip-path',d => `url(#${d.candidat}-clip)`)
+    .style('clip-path',d => `url(#${d.initiales}-clip)`)
+    .style('-webkit-clip-path',d => `url(#${d.initiales}-clip)`)
     .append('image')
     .attr('xlink:href', d => d.img_url)
     .attr('x', 6)
