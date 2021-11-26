@@ -103,9 +103,9 @@ body {
 
   .circle-img {
     border-radius: 50%;
-    width: 80%;
-    height: 80%;
-    border: 0.2em solid;
+    width: 90%;
+    height: 90%;
+    border: 0.15em solid;
   }
 
 .candidat-nom {
