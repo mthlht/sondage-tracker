@@ -197,6 +197,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
   photoDefs
     .append('clipPath')
     .attr('id', d => `${d.initiales}-clip`)
+    .style('-webkit-transform', 'translateZ(1px)')
     .append('circle')
     .attr('cx', 30)
     .attr('cy', 30)
