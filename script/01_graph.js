@@ -202,14 +202,14 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
 
   divPhotoSvg
     .append('g')
-    .style('clip-path',d => `url(#${d.initiales}-clip)`)
-    .style('-webkit-clip-path',d => `url(#${d.initiales}-clip)`)
     .append('image')
     .attr('xlink:href', d => d.img_url)
     .attr('x', 6)
     .attr('y', 6)
     .attr('width', 50)
-    .attr('height', 50);
+    .attr('height', 50)
+    .style('clip-path',d => `url(#${d.initiales}-clip)`)
+    .style('-webkit-clip-path',d => `url(#${d.initiales}-clip)`);
 
     divPhotoSvg
     .append('g')
