@@ -1,6 +1,5 @@
 :root {
-    /* --font-size: 16px; */
-    --font-family: "BrownFtv", "Roboto", "Helvetica", sans-serif;
+    --font-family: "BrownRegular", "BrownFtv", "Roboto", "Helvetica", sans-serif;
     --color-yellow: #ffc300;
     --color-black: #232323;
     --color-gray-dark: #5f7081;
@@ -12,26 +11,97 @@
     --gutter-size: 1.5em;
 }
 
+/* ---------------------------------------------- */
+/* Style html - font-size root */
+
+/* Font size desktop */
+html {
+        font-size: 15px;
+}
+
+/* Font size tablette */
+@media screen and (max-width: 880px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+/* Font size mobile */
+@media screen and (max-width: 420px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+/* ---------------------------------------------- */
+/* Style Body - div englobants */
+
 body {
     font-family: var(--font-family);
 }
 
+.c-body {
+    max-width: 75%;
+    margin-left: 12.5%;
+
+}
+
+.compilateur-sondages {
+    max-width: 100%;
+    min-height: 800px;
+    margin-left: 0;
+    color: #1e1e1e;
+}
+
+/* ---------------------------------------------- */
+/* Style titraille et chapo */
+
+.compilateur-sondages-title {
+    line-height: 3.2rem;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+}
+
+.compilateur-sondages__chapo {
+    line-height: 2rem;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.compilateur-sondages__update {
+    padding: 1rem 0;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.compilateur-sondages__intro {
+    margin-top: 1.5rem;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+/* ---------------------------------------------- */
+/* Style titraille des graphiques */
+
 .graph-container {
-    max-width: 500px;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
 }
 
 .grph-title {
-    font-size: 1.2em;
+    font-size: 1.6rem;
     margin-top: 0;
     margin-bottom: 0;
-}
-
-.grph-subtitle {
-    display: block;
-    font-size: 0.9em;
-    font-weight: 400;
-    line-height: 1;
-    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .grph-content {
@@ -40,24 +110,13 @@ body {
     margin-top: 0;
 }
 
-.grph-tooltip {
-    background: #fff;
-    border: 1px solid #efefef;
-    border-radius: 4px;
-    opacity: 0;
-    padding: .75em 1em;
-    pointer-events: none;
-    position: absolute;
-    transform: translate(-50%, -120%);
-    transition: opacity .3s;
-    white-space: nowrap;
-}
-
 .grph-caption {
+    text-align: right;
+    width: 100%;
     box-sizing: border-box;
     color: var(--color-gray-dark);
-    font-size: .6875em;
-    margin-top: 1em;
+    font-size: .7rem;
+    margin-top: 1rem;
 }
 
 .grph-caption a,
@@ -66,23 +125,36 @@ body {
 .grph-caption a:hover,
 .grph-caption a:visited {
     color: var(--color-black);
-    font-size: 1em;
+    font-size: 0.7rem;
 }
 
 .grph-note {
     color: var(--color-gray-dark);
-    
 }
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* Style éléments graphiques */
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* Graphique 1 : classement */
+
+/* Les boites par candidat */
 .candidat-box {
     display: flex;
     flex-flow: row wrap;
-    max-height: 50px;
-    width:100%;
-    max-width:450px;
+    max-height: 5rem;
+    max-width: 100%;
     margin-bottom: 1%;
     border-bottom: 1px solid var(--color-gray);
 }
 
+
+/* ---------------------------------------------- */
+/* Partie gauche : photo, nom, parti */
 .left-box {
     display:flex;
     flex-grow:0;
@@ -93,19 +165,19 @@ body {
 
 .photo-box {
     display: flex;
-    max-width: 40px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: .4rem;
+    margin-right: .4rem;
     width:20%;
     align-items: bottom;
-    padding: 0.1em;
+    padding: 0.1rem;
 }
 
   .circle-img {
+    font-size: 1rem;
     border-radius: 50%;
     width: 90%;
     height: 90%;
-    border: 0.15em solid;
+    border: 0.2rem solid;
   }
 
 .candidat-nom {
@@ -115,16 +187,16 @@ body {
 }
 
 .sub-nom {
-    font-size: 0.9em;
+    font-size: 1.2rem;
     margin-top:0;
     margin-bottom: 0;
 }
 
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
 
     .sub-nom {
-        font-size: 0.75em;
+        font-size: 1rem;
     }
 
     .sub-parti {
@@ -133,13 +205,14 @@ body {
 }
 
 .sub-parti {
-    font-size: 0.7em;
+    font-size: .8rem;
     margin-top: 0;
     margin-bottom: 0;
     color: var(--color-gray-dark);
 }
 
-
+/* ---------------------------------------------- */
+/* Partie droite : photo, nom, parti */
 .right-box {
     width: 60%;
     max-height: inherit;
@@ -150,17 +223,3 @@ body {
 }
 
 
-.box-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap:wrap;
-
-}
-
-.box-candidat {
-    padding: 0.3em;
-    margin-right: 0.3em;
-    margin-bottom: 0.3em;
-    border-radius: 0.2em;
-
-}

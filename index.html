@@ -1,33 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-    <title>Premier graphique</title>
+    <title>Compilateur de sondages</title>
 
     <!-- Chargement des librairies  -->
-    <script src="d3.v5.js" defer></script>
+    <script src="d3.v5.min.js" defer></script>
     <script src="topojson.js" defer></script>
 
-    <!-- Scripts - Graphiques  -->
-    <script src="script/01_graph.js" defer></script>
-    
+     <!-- Scripts - Graphiques  -->
+     <script src="script/01_graph.js" defer></script>
+
 
 
 </head>
+
 <body>
 
-    <div class="graph-container" id="graph_01">
-        <h4 class="grph-title"></h4>
-        <figure class="grph-content">
-        </figure>
-        <figcaption class="grph-caption"></figcaption>
+    <div class="c-body">
+        <div class="compilateur-sondages">
+            <h1 class="compilateur-sondages-title">
+                Sondages présidentielle 2022 : ce que disent vraiment les estimations en deux graphiques
+            </h1>
+            <div class="compilateur-sondages__chapo">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a quam euismod, luctus metus eu,
+                condimentum ipsum. Sed venenatis nisi eu purus mollis vehicula. Pellentesque faucibus cursus nunc non
+                bibendum. Aenean posuere est gravida, cursus tellus id, porttitor felis. Quisque pellentesque velit in
+                laoreet.
+            </div>
+
+            <div class="compilateur-sondages__update">
+                <span class="compilateur-sondages__update--pub">Publié le XX/XX/2021 à 7:00</span>
+                <span class="compilateur-sondages__update--up">...</span>
+            </div>
+
+            <div class="compilateur-sondages__intro">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod dolor orci, quis vehicula leo
+                convallis tristique. Nulla et mi augue. Vestibulum consectetur sit amet eros quis lobortis. Aliquam nec
+                finibus nisi. Sed condimentum dictum urna, nec convallis erat. In nec maximus nulla. Sed nisi sem,
+                placerat at leo id, suscipit mattis dui. Aenean tempus nec magna sed eleifend. Nulla facilisi. Praesent
+                non massa quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                Donec varius.
+            </div>
+
+            <div class="graph-container" id="graph_01">
+                <h4 class="grph-title"></h4>
+                <figure class="grph-content">
+                </figure>
+                <figcaption class="grph-caption"></figcaption>
+            </div>
+            
+
+
+
     </div>
-    
 
+    <!-- Chargement des librairies  -->
 
-    
+    </article>
+
 </body>
+
 </html>

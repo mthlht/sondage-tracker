@@ -102,7 +102,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
     // Création du canevas SVG
 
     const width = 400;
-    const height = 60;
+    const height = 40;
     const marginH = 5;
     const marginV = 5;
 
@@ -259,10 +259,10 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
         let numbers = dataMinMax[d.nom]
         let number = d3.min(numbers.erreur_inf)+4
         
-        if(d3.max(numbers.erreur_sup) - d3.min(numbers.erreur_inf) < 20) {
-          return scaleX(number) - 25
+        if(d3.min(numbers.erreur_inf) < 10) {
+          return scaleX(number) - 20
         } else {
-          return scaleX(number)
+          return scaleX(number) - 25
         }        
       })
       .attr('y', 18)
@@ -273,7 +273,7 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
         return label
       })
       .attr('font-weight', 'bold')
-      .attr('font-size', 18)
+      .attr('font-size', 12)
 
       const labelsMax = svgResult
       .append('g')
@@ -282,11 +282,9 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
       .attr('x', d => {
         let numbers = dataMinMax[d.nom]
         let number = d3.max(numbers.erreur_sup)+4
-        if(d3.max(numbers.erreur_sup) - d3.min(numbers.erreur_inf) < 20) {
-          return scaleX(number)
-        } else {
-          return scaleX(number) - 25
-        }    
+        
+        return scaleX(number)
+
       })
       .attr('y', 18)
       .text(d => {
@@ -296,6 +294,6 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
         return label
       })
       .attr('font-weight', 'bold')
-      .attr('font-size', 18)
+      .attr('font-size', 12)
 
 })
