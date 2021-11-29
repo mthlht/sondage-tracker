@@ -22,14 +22,14 @@ html {
 /* Font size tablette */
 @media screen and (max-width: 880px) {
     html {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
 /* Font size mobile */
 @media screen and (max-width: 420px) {
     html {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
