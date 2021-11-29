@@ -1,7 +1,7 @@
 d3.csv('data/df_sondages_classement.csv').then(data => {
     const graphCfg = {
         target: `#graph_01`,
-        title: `Classement des candidats selon les sondages des trois dernières semaines ?`,
+        title: `Classement des candidats selon les résultats des sondages des trois dernières semaines ?`,
         subtitle: ``,
         caption: `Source : <a href="https://twitter.com/NspPolls" target="_blank">NspPolls</a> - Crédits : Franceinfo`,
         type: 'landscape',
