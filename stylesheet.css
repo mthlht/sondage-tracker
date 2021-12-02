@@ -54,7 +54,6 @@ body {
 
 .compilateur-sondages {
     max-width: 100%;
-    min-height: 800px;
     margin-left: 0;
     color: #1e1e1e;
 }
@@ -121,6 +120,7 @@ body {
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
+    width:100%;
 }
 
 .grph-caption {
@@ -237,4 +237,20 @@ body {
     max-height: inherit;
 }
 
+/* ---------------------------------------------- */
+/* Partie droite : photo, nom, parti */
+
+.box-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+
+.box-candidat {
+    padding: 0.3rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-radius: 0.2rem;
+}
 

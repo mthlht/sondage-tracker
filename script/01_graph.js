@@ -10,8 +10,6 @@ d3.csv('data/df_sondages_classement.csv').then(data => {
 
     // Traitement des données
 
-    console.log(data)
-
     // Premier tri
     const tempObjData = data.reduce((acc, d) => {
 

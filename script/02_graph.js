@@ -199,7 +199,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
         .join("div")
         .attr("class", "box-candidat")
         .html(d => d.nom_abbr)
-        .style("font-size", "0.9em")
+        .style("font-size", "1.2rem")
         .style("color", d => {
             if (candidatsListe.includes(d.candidat)) {
                 return "white"
@@ -214,15 +214,15 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
 
             let col = paletteCouleurs[d.candidat];
 
-            return `0.1em solid ${col}`
+            return `0.1rem solid ${col}`
 
         })
 
     //--------------------------------------------------------------------------------------------------
     // Création du canevas SVG
 
-    const width = 500;
-    const height = 800;
+    const width = 600;
+    const height = 700;
     const marginH = 40;
     const marginV = 20;
 
@@ -453,7 +453,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
         .attr("x", width + 8)
         .attr("y", (d) => d.y)
         .text((d) => d.nom + " " + Math.round(d.ymean) + "%")
-        .style("font-size", "21px")
+        .style("font-size", "18px")
         .style("font-weight", "bold")
         .style("fill", d => paletteCouleurs[d.candidat]);
 
@@ -624,7 +624,7 @@ d3.csv('data/df_sondages_loess.csv').then(data => {
                 .attr("x", width + 8)
                 .attr("y", (d) => d.y)
                 .text((d) => d.nom + " " + Math.round(d.ymean) + "%")
-                .style("font-size", "21px")
+                .style("font-size", "18px")
                 .style("font-weight", "bold")
                 .style("fill", d => paletteCouleurs[d.candidat]);
 
